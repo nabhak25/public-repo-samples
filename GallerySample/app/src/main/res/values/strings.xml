@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Slideshow</string>
+    <string name="Photos">Photos</string>
+    <string name="Videos">Videos</string>
+    <string name="header">Let\'s get started!</string>
+    <string name="start">START</string>
+    <string name="done">Done</string>
+</resources>

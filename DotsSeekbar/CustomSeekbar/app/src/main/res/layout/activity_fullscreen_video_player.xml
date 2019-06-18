@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nabha.customseekbar.video_preview.FullscreenVideoPlayer">
+
+    <FrameLayout
+        android:id="@+id/videoview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentStart="true"
+        android:background="#000">
+
+        <VideoView
+            android:id="@+id/player_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <ImageView
+            android:id="@+id/dummyImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:scaleType="fitCenter"
+            android:visibility="visible"
+            android:transitionName="expand_thumbnail"/>
+
+        <ImageButton
+            android:id="@+id/movie_play_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:src="@drawable/icon_playback"
+            android:visibility="visible" />
+
+        <FrameLayout
+            android:id="@+id/touchoverlay_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tap on the player for Full screen Video"
+        android:layout_gravity="center"
+        android:layout_below="@+id/videoview_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>

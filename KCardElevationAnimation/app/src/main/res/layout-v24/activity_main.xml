@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_centerInParent="true"
+                  android:id="@+id/container">
+
+        <android.support.v7.widget.CardView
+                android:id="@+id/cardview"
+                android:layout_width="286dp"
+                android:layout_height="44dp"
+                card_view:cardBackgroundColor="#00ffffff"
+                card_view:cardCornerRadius="12dp"
+                card_view:cardElevation="2dp"
+                android:stateListAnimator="@animator/elevation"
+                android:layout_margin="8dp"
+                android:layout_gravity="center">
+
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                            android:background="@drawable/pro_ripple">
+
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="@string/elevate_me" android:textColor="#ffffff"
+                          android:layout_centerInParent="true" android:textSize="18sp"
+                          android:textAlignment="center"/>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    <TextView
+            android:id="@+id/priceText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/container"
+            android:layout_centerHorizontal="true"
+            android:text="$999.99/year"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp" />
+
+
+    <Button android:layout_width="286dp" android:layout_height="44dp" android:layout_below="@id/container"
+            android:layout_marginTop="105dp"
+            android:background="@drawable/pro_ripple"
+            android:text="@string/i_am_a_button" android:textColor="#ffffff" android:textAllCaps="false"
+            android:textSize="18sp" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

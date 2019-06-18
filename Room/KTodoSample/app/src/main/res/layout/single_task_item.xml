@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout>
+    <data>
+        <variable name="taskModel" type="com.example.ktodosample.model.TaskModel"/>
+        <variable name="listener" type="com.example.ktodosample.interfaces.TaskListener"/>
+    </data>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:onClick="@{() -> listener.onTaskSelected(taskModel)}">
+
+        <android.support.v7.widget.CardView
+                android:id="@+id/cardview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:cardBackgroundColor="@color/colorLight">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="7dp">
+
+                <TextView
+                        android:id="@+id/textViewStatus"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@{taskModel.task.finished ? @color/colorPrimaryDark : @color/colorDarkRed}"
+                        android:text="@{taskModel.task.finished ? @string/completed : @string/not_completed}"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                        android:textColor="@color/colorLight"
+                        android:textStyle="bold"/>
+
+                <TextView
+                        android:id="@+id/textViewTask"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@{taskModel.task.task}"
+                        android:textColor="@{taskModel.task.color}"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"/>
+
+                <TextView
+                        android:id="@+id/textViewDesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@{taskModel.task.description}"
+                        android:textColor="@{taskModel.task.color}"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+                <TextView
+                        android:id="@+id/textViewFinishBy"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@{taskModel.task.finishBy}"
+                        android:textColor="@{taskModel.task.color}"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+</layout>
+
+        <!--app:cardBackgroundColor="@{taskModel.task.finished ? @color/itemBgColor : @color/itemBgLightRed}"-->
+

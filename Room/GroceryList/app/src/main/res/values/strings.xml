@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GroceryList</string>
+    <string name="no_basket_text">You have no grocery list!\
+        Tap \'+\' to add!</string>
+    <string name="no_items_text">You have no items!\
+        Tap \'+\' to add!</string>
+    <string name="item">Item Eg: eggs</string>
+    <string name="quantity">Item Eg: 12</string>
+    <string name="basket">Basket Eg: Vegetables basket, Basket 1 etc</string>
+    <string name="basket_name">Basket - 1</string>
+    <string name="item_name">Eggs</string>
+    <string name="item_quantity">12</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_basket">Add Basket</string>
+    <string name="add_item">Add Item</string>
+</resources>

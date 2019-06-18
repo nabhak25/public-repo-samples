@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KCardElevationAnimation</string>
+    <string name="elevate_me">Elevate me!</string>
+    <string name="i_am_a_button">I am a Button</string>
+</resources>

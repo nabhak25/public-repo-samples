@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7E57C2"
+    tools:context="com.example.nabha.ui_elements_sample.Fragment.FragmentActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/simple_fragment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="simpleFragment"
+        android:text="@string/simple_fragment"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="76dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="simpleFragmentTwo"
+        android:text="@string/simple_frag_2"
+        android:layout_marginTop="137dp"
+        app:layout_constraintTop_toBottomOf="@+id/simple_fragment_button"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>

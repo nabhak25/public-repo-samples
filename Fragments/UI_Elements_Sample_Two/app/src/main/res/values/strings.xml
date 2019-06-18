@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">UI_Elements_Sample_Two</string>
+    <string name="simple">Simple Fragment</string>
+    <string name="multiple">Multiple Fragment</string>
+    <string name="view_Pager">View Pager</string>
+    <string name="menu_drawer">Menu Drawer</string>
+    <string name="fragment_button">Click me!</string>
+    <string name="description">description</string>
+    <string name="menu_button_one">Moon</string>
+    <string name="menu_button_two">Beach</string>
+    <string name="menu_button_three">Rainbow</string>
+</resources>

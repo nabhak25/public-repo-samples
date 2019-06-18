@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KTodoSample2</string>
+    <string name="description">Description</string>
+    <string name="enter_task_here">Enter task here</string>
+    <string name="enter_item_here">Enter sub task here</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>

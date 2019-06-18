@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KProject9</string>
+    <string name="deafult_time">00:00</string>
+    <string name="text_start">Start</string>
+    <string name="text_add">Add</string>
+    <string name="text_subtract">Subtract</string>
+</resources>

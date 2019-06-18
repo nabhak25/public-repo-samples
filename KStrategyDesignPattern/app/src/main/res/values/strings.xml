@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KStrategyDesignPattern</string>
+    <string name="enter_your_travel_preference">Enter your travel preference</string>
+    <string name="you_want_to_take_train">You want to take Train. You will be charged ₹300</string>
+    <string name="you_want_to_take_taxi">You want to take Taxi. You will be charged ₹1000</string>
+    <string name="you_want_to_take_auto">You want to take Auto. You will be charged ₹600</string>
+    <string name="you_want_to_take_bus">You want to take Bus. You will be charged ₹200</string>
+    <string name="go_to_airport">Go To Airport</string>
+</resources>

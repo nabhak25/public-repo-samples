@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">UI_Elements_Sample</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="open_activity">Go To Grid View Activity</string>
+    <string-array name="food_items">
+        <item>Barfi</item>
+        <item>Prawns</item>
+        <item>Dahipuri</item>
+        <item>Jamun</item>
+        <item>Lava Cake</item>
+        <item>Paneer Tikka</item>
+        <item>Gol Gappa</item>
+        <item>Rasmalai</item>
+        <item>Samosa</item>
+        <item>Chicken Tikka</item>
+    </string-array>
+    <string name="birthday_message">Birthday Message!!</string>
+    <string name="ok_button">OK</string>
+    <string name="food_item_name">Dish Name</string>
+    <string name="fragment_button">Go To Fragment Sample Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="simple_fragment">Simple Fragment</string>
+    <string name="multiple_fragment">Multiple Fragment</string>
+    <string name="pager_fragment">Pager Fragment</string>
+    <string name="menu_drawer_fragment">Menu Drawer Fragment</string>
+    <string name="description">default</string>
+    <string name="cake_button">Click me!</string>
+    <string name="simple_frag_2">Simple Fragment 2</string>
+</resources>

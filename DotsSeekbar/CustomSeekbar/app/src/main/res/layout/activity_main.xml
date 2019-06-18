@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nabha.customseekbar.MainActivity">
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<com.example.nabha.customseekbar.seekbar.DotsSeekBar-->
+    <!--android:id="@+id/movie_length_seekbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="3dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:max="2"-->
+    <!--android:maxHeight="6dp"-->
+    <!--android:minHeight="6dp"-->
+    <!--android:progress="1"-->
+    <!--android:progressDrawable="@drawable/movie_length_progress_drawable"-->
+    <!--android:progressTint="#00000000"-->
+    <!--android:theme="@style/Widget.AppCompat.SeekBar.Discrete" />-->
+
+    <!--</RelativeLayout>-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.example.nabha.customseekbar.seekbar.CustomSeekbar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            app:bsb_always_show_bubble="true"
+            app:bsb_auto_adjust_section_mark="true"
+            app:bsb_bubble_color="#BDBDBD"
+            app:bsb_bubble_text_color="#BDBDBD"
+            app:bsb_second_track_color="#E0E0E0"
+            app:bsb_second_track_size="4dp"
+            app:bsb_section_count="2"
+            app:bsb_progress="1"
+            app:bsb_min="0"
+            app:bsb_max="2"
+            app:bsb_show_section_mark="true"
+            app:bsb_show_section_text="false"
+            app:bsb_show_thumb_text="false"
+            app:bsb_thumb_color="#00ffffff"
+            app:bsb_touch_to_seek="true"
+            app:bsb_track_color="#E0E0E0"
+            app:bsb_track_size="4dp" />
+
+        <!--<com.xw.repo.BubbleSeekBar-->
+        <!--android:id="@+id/seekbar2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--app:bsb_auto_adjust_section_mark="true"-->
+        <!--app:bsb_second_track_color="@color/colorAccent"-->
+        <!--app:bsb_section_count="5"-->
+        <!--app:bsb_section_text_position="below_section_mark"-->
+        <!--app:bsb_show_section_mark="true"-->
+        <!--app:bsb_show_section_text="true"-->
+        <!--app:bsb_show_thumb_text="true"-->
+        <!--app:bsb_thumb_text_size="18sp"-->
+        <!--app:bsb_touch_to_seek="true"/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:visibility="invisible"/>-->
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Next screen"
+        android:onClick="presentNextScreen"/>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="10dp"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="250dp"-->
+        <!--android:background="#fff"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<View-->
+            <!--android:layout_width="6.5dp"-->
+            <!--android:layout_height="6.5dp"-->
+            <!--android:background="@drawable/circle"-->
+            <!--android:layout_marginStart="3dp"-->
+            <!--android:layout_marginTop="2dp"/>-->
+
+    <!--</LinearLayout>-->
+
+</RelativeLayout>
+

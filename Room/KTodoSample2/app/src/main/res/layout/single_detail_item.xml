@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+        <variable name="itemModel" type="com.example.ktodosample2.model.ItemModel"/>
+        <variable name="listener" type="com.example.ktodosample2.interfaces.ItemListener"/>
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:weightSum="3">
+
+            <TextView android:id="@+id/description" android:layout_width="275dp" android:layout_height="wrap_content"
+                      android:text="@{itemModel.item.itemDescription}" android:textSize="18sp" android:textColor="@color/colorPrimary"
+                      android:layout_marginStart="12dp" android:layout_marginTop="8dp" android:layout_marginEnd="12dp"
+                      android:layout_marginBottom="8dp"
+                      android:layout_weight="1"/>
+
+            <ImageView android:layout_width="40dp" android:layout_height="40dp"
+                       android:src="@drawable/menu"
+                       android:layout_weight="2"
+                       android:id="@+id/imageMenu"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

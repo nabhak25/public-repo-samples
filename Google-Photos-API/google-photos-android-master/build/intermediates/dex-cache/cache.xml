@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/989997f64741d9c0c830591694bded2f666ee2c3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_d43f7ef559e31db270d31a1c6d297716fb128f7e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/0e57ba7e35a39b15da272f3cc3ceb85ef43f0188/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_db9537e3f94aac028d9345c9b3ee934bfdb93a52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/3036dcb1c0cb78b2ea5862f016101bb78bf0b191/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_09cc55c82df0f91120115a2b8d4d892f01ea85bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/466baa299729ad41824b90dc00dbc3e7c1c3a84b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_67b958786de9a5b617b8cb7aed858e6653de8916.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/87ecf5d6d2784783394ba4f9aecc8bb625c2c1ac/output/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1_abfc67ecf0b2108627286ca4a3feecce40479162.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/b35a08e72de1558e94168399bfce924135874a69/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_2244f306e0289b75dd70efe3d467c4ab3aca8a26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/4cf9fb61bdbefb214ea3dbb393e881900cd3b4fa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_a82dac99004bfaf06e736d918d04c20fbba2505d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/12d5ad1fb9fb602a9702b2377b2658add2380abf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_07ea00e548006b2efec1a9a92eadce01a2e68111.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_e3f4cdffa278e021a81592a23c4e48a79df368ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.gradle/caches/modules-2/files-2.1/org.roboguice/roboguice/3.0.1/24e814f35d5cc28eaa7e9f07a50ea69deeb2b544/roboguice-3.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="24e814f35d5cc28eaa7e9f07a50ea69deeb2b544">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/roboguice-3.0.1_b49f240cf93a2f90f897340ba20685013d53a40d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/f8a55a6f0f5da5c8d68c6af859b3ab16e5c78459/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_29005bbe9ee0a338c1f84da8de59f785e3d42ad4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/b887c21ac995c3c99263865424eacd231c85f4c5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_d714603ec75c6a9885b0f8dd56d1f0e6c8d84f64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/b4fa54f39648864b39f7ef021c63936759918b10/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_12daf25b7c9822605bd001496fbc4509e5c317f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/3efc75b9af27f9e6681a5a0632a9b6f484e673a0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_22c38e7458100387d6a0db8e97bea0a000b961dc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/e46c53ad6d435ac433f44bdda1499655f05770e6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_ca4992d089479704cd33587af205d0da4262c722.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/87ecf5d6d2784783394ba4f9aecc8bb625c2c1ac/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_2452c9a7f68e290d9bb7e483a831b2354ca2e1b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/56330d7b61486b7c49e94e3b26692f4b62461a09/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3ff3c506644c820eb2bdf06e8339f72be578551">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_f30ac7904eaf420aec4e12044c9b96e24f79468e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/74f5ece6b782580adc809ea450375118a3f0a9bd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_911bc0ced2638456ecc1f01d1bd0f03bb9723734.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/4aac2c6238caf6467612171bb45a15113b733afd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_41abbd2137827bfdf8422c45e768c8bc2e5ac8dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/d77445e2ce2589a894331e6f1257462d542dbc5c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_2260e4cd5e80dcf6bccd5314477a3fc81918a9f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/ae6158d888ea7f9063a6acd441ee875de437759a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_d93bc7db562a84e2edbec5ea619e7f42cd3607c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/2e9f180557ca6b341245d57d4dbd9697cda908dd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_a0acc847936d323f0775480373e8d3013634afc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/14e01b57799f853e9118cdef6c43c383ca52e2f0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_8b6aa20e3b5010c6e6cb8cbd77613900b6d026d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1_fcc205acf2ac659ee48c19bc859f0e374cd6efb3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nabha/.android/build-cache/bb21ea3221db95b26662a0f28d6ac09f8d091240/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="/Users/nabha/Downloads/google-photos-android-master/app/build/intermediates/pre-dexed/debug/classes_d45f5439df4fd16f7d015540dd9f1c724c379a27.jar" />
+    </item>
+
+</items>

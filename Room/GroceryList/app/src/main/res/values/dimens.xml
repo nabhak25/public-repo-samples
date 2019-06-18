@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="no_items_text_size">20sp</dimen>
+    <dimen name="fab_add_item_size">60dp</dimen>
+    <dimen name="basket_name_font">16sp</dimen>
+</resources>
