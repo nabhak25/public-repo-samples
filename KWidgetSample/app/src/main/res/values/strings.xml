@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KWidgetSample</string>
+    <string name="simple_app_widget">Simple App Widget</string>
+    <string name="add_widget">Add Widget</string>
+</resources>
