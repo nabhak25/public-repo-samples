@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xdj-32-uM3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Hc9-CV-duO">
+            <objects>
+                <viewController id="xdj-32-uM3" customClass="LoginViewController" customModule="customerserviceapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qBt-Ak-RzS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="1ki-cB-Q4r">
+                                <rect key="frame" x="87" y="94" width="240" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="R0g-F8-A2D"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next e-Services" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4BQ-of-UzX">
+                                <rect key="frame" x="100" y="223" width="214" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQb-rO-2Mr">
+                                <rect key="frame" x="20" y="312" width="374" height="200"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ng5-Ip-WHj">
+                                        <rect key="frame" x="150" y="24" width="74" height="27.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" name="color_dark_green"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Mobile Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ifO-V5-ErV">
+                                        <rect key="frame" x="14" y="81" width="346" height="56"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="56" id="zI5-bv-Yim"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="ifO-V5-ErV" firstAttribute="top" secondItem="ng5-Ip-WHj" secondAttribute="bottom" constant="29.5" id="B0S-8O-soC"/>
+                                    <constraint firstItem="ng5-Ip-WHj" firstAttribute="top" secondItem="WQb-rO-2Mr" secondAttribute="top" constant="24" id="GFY-3G-eXN"/>
+                                    <constraint firstAttribute="height" constant="200" id="Id7-ln-yQu"/>
+                                    <constraint firstItem="ifO-V5-ErV" firstAttribute="leading" secondItem="WQb-rO-2Mr" secondAttribute="leading" constant="14" id="a8y-eh-xIG"/>
+                                    <constraint firstItem="ng5-Ip-WHj" firstAttribute="leading" secondItem="WQb-rO-2Mr" secondAttribute="leading" constant="150" id="exY-6H-O3a"/>
+                                    <constraint firstAttribute="trailing" secondItem="ng5-Ip-WHj" secondAttribute="trailing" constant="150" id="ox6-5o-Vvk"/>
+                                    <constraint firstAttribute="trailing" secondItem="ifO-V5-ErV" secondAttribute="trailing" constant="14" id="trQ-ic-MZz"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zS0-5z-Ulv">
+                                <rect key="frame" x="55" y="479" width="300" height="60"/>
+                                <color key="backgroundColor" name="otp_button_color"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="OSC-WY-eBc"/>
+                                    <constraint firstAttribute="width" constant="300" id="rnS-Pv-gpv"/>
+                                </constraints>
+                                <state key="normal" title="GET OTP">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onGetOtpClicked:" destination="xdj-32-uM3" eventType="touchUpInside" id="odx-Pw-puW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" name="bg_color_light_green"/>
+                        <constraints>
+                            <constraint firstItem="zS0-5z-Ulv" firstAttribute="leading" secondItem="FgK-x5-mI0" secondAttribute="leading" constant="55" id="4Nq-zv-j9y"/>
+                            <constraint firstItem="1ki-cB-Q4r" firstAttribute="leading" secondItem="FgK-x5-mI0" secondAttribute="leading" constant="87" id="5dp-mc-1JH"/>
+                            <constraint firstItem="FgK-x5-mI0" firstAttribute="trailing" secondItem="1ki-cB-Q4r" secondAttribute="trailing" constant="87" id="C1j-40-Gjp"/>
+                            <constraint firstItem="FgK-x5-mI0" firstAttribute="trailing" secondItem="WQb-rO-2Mr" secondAttribute="trailing" constant="20" id="DHf-CD-SHR"/>
+                            <constraint firstItem="1ki-cB-Q4r" firstAttribute="top" secondItem="FgK-x5-mI0" secondAttribute="top" constant="50" id="Dzv-Gg-ecg"/>
+                            <constraint firstItem="FgK-x5-mI0" firstAttribute="trailing" secondItem="4BQ-of-UzX" secondAttribute="trailing" constant="100" id="LQo-eL-Ffe"/>
+                            <constraint firstItem="4BQ-of-UzX" firstAttribute="leading" secondItem="FgK-x5-mI0" secondAttribute="leading" constant="100" id="VBo-Zg-7wk"/>
+                            <constraint firstItem="WQb-rO-2Mr" firstAttribute="top" secondItem="4BQ-of-UzX" secondAttribute="bottom" constant="54" id="eWc-gJ-fGF"/>
+                            <constraint firstItem="zS0-5z-Ulv" firstAttribute="top" secondItem="ifO-V5-ErV" secondAttribute="bottom" constant="30" id="gQG-QI-6Ff"/>
+                            <constraint firstItem="WQb-rO-2Mr" firstAttribute="leading" secondItem="FgK-x5-mI0" secondAttribute="leading" constant="20" id="oAt-wZ-T8L"/>
+                            <constraint firstItem="4BQ-of-UzX" firstAttribute="top" secondItem="1ki-cB-Q4r" secondAttribute="bottom" constant="69" id="x9y-Id-RaZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FgK-x5-mI0"/>
+                    </view>
+                    <connections>
+                        <outlet property="getOtpButton" destination="zS0-5z-Ulv" id="HtB-GH-flp"/>
+                        <outlet property="loginHolderView" destination="WQb-rO-2Mr" id="2nz-b9-1Ke"/>
+                        <outlet property="mobileNumberTextField" destination="ifO-V5-ErV" id="L8a-h2-fe3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gmj-ak-3O1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153.62318840579712" y="59.598214285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="56.333332061767578" height="29.666666030883789"/>
+        <namedColor name="bg_color_light_green">
+            <color red="0.63921568627450975" green="0.74509803921568629" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="color_dark_green">
+            <color red="0.29019607843137257" green="0.38823529411764707" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="otp_button_color">
+            <color red="0.45490196078431372" green="0.80784313725490198" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
