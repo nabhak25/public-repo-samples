@@ -105,29 +105,49 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="keT-Ba-aBg">
-                                <rect key="frame" x="17" y="253" width="380" height="400"/>
+                                <rect key="frame" x="32" y="253" width="350" height="400"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="N7i-vW-a19">
-                                        <rect key="frame" x="160" y="12" width="60" height="60"/>
+                                        <rect key="frame" x="145" y="12" width="60" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="60" id="5WW-YK-4B5"/>
                                             <constraint firstAttribute="height" constant="60" id="dt2-M9-hX4"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next e-Services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EvI-Ne-7vR">
-                                        <rect key="frame" x="110.5" y="84" width="159.5" height="27.5"/>
+                                        <rect key="frame" x="95.5" y="84" width="159.5" height="27.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Didn't get the OTP?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wTj-0O-bou">
+                                        <rect key="frame" x="45" y="371" width="149.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aof-Fz-5dk">
+                                        <rect key="frame" x="204.5" y="366" width="105" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="01:50 Minutes">
+                                            <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="retryButtonClicked:" destination="eai-O0-tJ9" eventType="touchUpInside" id="HYW-8n-W88"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
+                                    <constraint firstItem="wTj-0O-bou" firstAttribute="leading" secondItem="keT-Ba-aBg" secondAttribute="leading" constant="45" id="6Y4-pk-94n"/>
                                     <constraint firstItem="EvI-Ne-7vR" firstAttribute="top" secondItem="N7i-vW-a19" secondAttribute="bottom" constant="12" id="84L-gr-dP4"/>
+                                    <constraint firstItem="Aof-Fz-5dk" firstAttribute="leading" secondItem="wTj-0O-bou" secondAttribute="trailing" constant="10" id="A0C-SX-60d"/>
                                     <constraint firstAttribute="height" constant="400" id="Chf-Yy-Xlz"/>
                                     <constraint firstItem="EvI-Ne-7vR" firstAttribute="centerX" secondItem="keT-Ba-aBg" secondAttribute="centerX" id="Egy-Qi-C22"/>
-                                    <constraint firstAttribute="width" constant="380" id="aKH-97-dLu"/>
+                                    <constraint firstAttribute="bottom" secondItem="Aof-Fz-5dk" secondAttribute="bottom" constant="4" id="WYm-eH-PsH"/>
+                                    <constraint firstAttribute="width" constant="350" id="aKH-97-dLu"/>
                                     <constraint firstItem="N7i-vW-a19" firstAttribute="top" secondItem="keT-Ba-aBg" secondAttribute="top" constant="12" id="iE7-Ev-dm1"/>
+                                    <constraint firstAttribute="bottom" secondItem="wTj-0O-bou" secondAttribute="bottom" constant="8" id="k2q-P2-YWv"/>
                                     <constraint firstItem="N7i-vW-a19" firstAttribute="centerX" secondItem="keT-Ba-aBg" secondAttribute="centerX" id="s7F-NU-2hh"/>
                                 </constraints>
                             </view>
@@ -154,10 +174,11 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZ5-dp-3KS">
-                                <rect key="frame" x="169.5" y="506" width="75" height="30"/>
+                                <rect key="frame" x="147" y="506" width="120" height="40"/>
                                 <color key="backgroundColor" name="otp_button_color"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="75" id="mCt-6M-dwz"/>
+                                    <constraint firstAttribute="height" constant="40" id="IUc-08-OVm"/>
+                                    <constraint firstAttribute="width" constant="120" id="mCt-6M-dwz"/>
                                 </constraints>
                                 <state key="normal" title="VERIFY">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -182,6 +203,7 @@
                     </view>
                     <connections>
                         <outlet property="otpInputField" destination="lvQ-Io-p4M" id="S3T-oJ-pCp"/>
+                        <outlet property="retryButton" destination="Aof-Fz-5dk" id="PNt-F9-jW2"/>
                         <outlet property="verifyButton" destination="zZ5-dp-3KS" id="apU-jj-UcJ"/>
                     </connections>
                 </viewController>

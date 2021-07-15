@@ -27,7 +27,6 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onGetOtpClicked(_ sender: Any) {
-        
         mobileNumberTextField.endEditing(true)
         mobileNumberTextField.text = ""
         if let vc = UIStoryboard(name: "Login", bundle: nil).instantiateViewController(withIdentifier: "OtpScreen") as? OtpViewController
