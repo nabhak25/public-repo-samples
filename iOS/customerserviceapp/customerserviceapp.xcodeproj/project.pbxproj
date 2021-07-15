@@ -18,6 +18,7 @@
 		8A43A49D269F1E9500B92D7C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A43A49C269F1E9500B92D7C /* Colors.xcassets */; };
 		8A43A49F269F223F00B92D7C /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A43A49E269F223F00B92D7C /* ViewExtension.swift */; };
 		8ABE5B37269F258300ED83F2 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE5B36269F258300ED83F2 /* TextFieldExtension.swift */; };
+		8ABE5B3B26A0563F00ED83F2 /* OtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE5B3A26A0563F00ED83F2 /* OtpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		8A43A49C269F1E9500B92D7C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		8A43A49E269F223F00B92D7C /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		8ABE5B36269F258300ED83F2 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		8ABE5B3A26A0563F00ED83F2 /* OtpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +89,10 @@
 		8A43A474269F116600B92D7C /* customerserviceapp */ = {
 			isa = PBXGroup;
 			children = (
+				8ABE5B3C26A0564600ED83F2 /* ViewController */,
 				8A43A4A0269F224500B92D7C /* Utils */,
 				8A43A475269F116700B92D7C /* AppDelegate.swift */,
 				8A43A477269F116700B92D7C /* SceneDelegate.swift */,
-				8A43A479269F116700B92D7C /* LoginViewController.swift */,
 				8A43A481269F116B00B92D7C /* Assets.xcassets */,
 				8A43A483269F116B00B92D7C /* LaunchScreen.storyboard */,
 				8A43A486269F116B00B92D7C /* Info.plist */,
@@ -117,6 +119,15 @@
 				8ABE5B36269F258300ED83F2 /* TextFieldExtension.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		8ABE5B3C26A0564600ED83F2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8A43A479269F116700B92D7C /* LoginViewController.swift */,
+				8ABE5B3A26A0563F00ED83F2 /* OtpViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ABE5B3B26A0563F00ED83F2 /* OtpViewController.swift in Sources */,
 				8A43A47A269F116700B92D7C /* LoginViewController.swift in Sources */,
 				8A43A476269F116700B92D7C /* AppDelegate.swift in Sources */,
 				8A43A478269F116700B92D7C /* SceneDelegate.swift in Sources */,
