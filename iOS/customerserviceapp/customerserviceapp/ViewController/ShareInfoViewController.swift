@@ -10,11 +10,21 @@ import UIKit
 import ValidationTextField
 
 class ShareInfoViewController: UIViewController {
-    @IBOutlet weak var nameTextField: ValidationTextField!
     
-    @IBOutlet weak var mobileNumberTextField: ValidationTextField!
+    @IBOutlet weak var nameTextField: UITextField!
     
-    @IBOutlet weak var addressTextField: ValidationTextField!
+    @IBOutlet weak var mobileNumberTextField: UITextField!
+    
+    @IBOutlet weak var addressTextField: UITextField!
+    
+    @IBOutlet weak var natureTextField: UITextField!
+    
+    @IBOutlet weak var placeTextField: UITextField!
+    
+    @IBOutlet weak var districtTextField: UITextField!
+    
+    @IBOutlet weak var stationTextField: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,9 +33,13 @@ class ShareInfoViewController: UIViewController {
     }
     
     private func setupImageForTextFields() {
-        nameTextField.setupRightImage(imageName: "ic_mobile")
+        nameTextField.setupRightImage(imageName: "ic_account")
         mobileNumberTextField.setupRightImage(imageName: "ic_mobile")
-        addressTextField.setupRightImage(imageName: "ic_mobile")
+        addressTextField.setupRightImage(imageName: "ic_place")
+        natureTextField.setupRightImage(imageName: "ic_arrow_down")
+        districtTextField.setupRightImage(imageName: "ic_arrow_down")
+        stationTextField.setupRightImage(imageName: "ic_arrow_down")
+        placeTextField.setupRightImage(imageName: "ic_place")
     }
     
 

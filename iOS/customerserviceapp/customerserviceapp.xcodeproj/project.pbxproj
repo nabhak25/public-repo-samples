@@ -25,6 +25,7 @@
 		8ABE5B4126A08F3200ED83F2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE5B4026A08F3200ED83F2 /* HomeViewController.swift */; };
 		8ABE5B4326A092AC00ED83F2 /* ViewInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE5B4226A092AC00ED83F2 /* ViewInfoTableViewController.swift */; };
 		8ABE5B4526A098BD00ED83F2 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE5B4426A098BD00ED83F2 /* InfoTableViewCell.swift */; };
+		8ABE5B4726A09B9C00ED83F2 /* ShareInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE5B4626A09B9C00ED83F2 /* ShareInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		8ABE5B4026A08F3200ED83F2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8ABE5B4226A092AC00ED83F2 /* ViewInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInfoTableViewController.swift; sourceTree = "<group>"; };
 		8ABE5B4426A098BD00ED83F2 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		8ABE5B4626A09B9C00ED83F2 /* ShareInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareInfoViewController.swift; sourceTree = "<group>"; };
 		BDDC73DAFBBAD34AE1CD81CD /* Pods_customerserviceapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_customerserviceapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBE609208F60AE2B88F5AF5E /* Pods-customerserviceappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customerserviceappTests.debug.xcconfig"; path = "Target Support Files/Pods-customerserviceappTests/Pods-customerserviceappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED3FA1821C9500C27EC1DD50 /* Pods-customerserviceappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-customerserviceappTests.release.xcconfig"; path = "Target Support Files/Pods-customerserviceappTests/Pods-customerserviceappTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				8ABE5B3A26A0563F00ED83F2 /* OtpViewController.swift */,
 				8ABE5B4026A08F3200ED83F2 /* HomeViewController.swift */,
 				8ABE5B4226A092AC00ED83F2 /* ViewInfoTableViewController.swift */,
+				8ABE5B4626A09B9C00ED83F2 /* ShareInfoViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				8ABE5B3B26A0563F00ED83F2 /* OtpViewController.swift in Sources */,
 				8ABE5B4526A098BD00ED83F2 /* InfoTableViewCell.swift in Sources */,
 				8A43A47A269F116700B92D7C /* LoginViewController.swift in Sources */,
+				8ABE5B4726A09B9C00ED83F2 /* ShareInfoViewController.swift in Sources */,
 				8A43A476269F116700B92D7C /* AppDelegate.swift in Sources */,
 				8ABE5B4126A08F3200ED83F2 /* HomeViewController.swift in Sources */,
 				8A43A478269F116700B92D7C /* SceneDelegate.swift in Sources */,
