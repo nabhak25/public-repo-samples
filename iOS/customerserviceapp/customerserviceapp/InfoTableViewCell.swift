@@ -18,6 +18,9 @@ class InfoTableViewCell: UITableViewCell {
         viewLayout.rounded()
     }
 
+    @IBAction func downloadClicked(_ sender: UIButton) {
+        print("Downlaod...")
+    }
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

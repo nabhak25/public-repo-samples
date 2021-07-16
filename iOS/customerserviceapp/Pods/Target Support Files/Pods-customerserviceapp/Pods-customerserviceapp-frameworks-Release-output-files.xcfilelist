@@ -1,1 +1,2 @@
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTPInputView.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ValidationTextField.framework

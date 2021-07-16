@@ -26,6 +26,10 @@ class HomeViewController: UIViewController {
     
     @IBAction func shareInfoClicked(_ sender: UIButton) {
         print("share info")
+        if let vc = UIStoryboard(name: "Details", bundle: nil).instantiateViewController(withIdentifier: "shareInfoScreen") as? ShareInfoViewController
+        {
+            present(vc, animated: true, completion: nil)
+        }
     }
     
     

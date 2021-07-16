@@ -1,16 +1,20 @@
 PODS:
   - OTPInputView (0.1.2)
+  - ValidationTextField (1.0.4)
 
 DEPENDENCIES:
   - OTPInputView
+  - ValidationTextField
 
 SPEC REPOS:
   trunk:
     - OTPInputView
+    - ValidationTextField
 
 SPEC CHECKSUMS:
   OTPInputView: 8a7cc613e29d264f799d121169d00a745cae4c00
+  ValidationTextField: 91bc04170ba4b4358912c372e12d7af4c9143ad5
 
-PODFILE CHECKSUM: 24822bab713e67425f9c30940f2e43309d8bc0bc
+PODFILE CHECKSUM: cca80b4e0ce8acd1a31d4170039e6e765890bd07
 
 COCOAPODS: 1.10.1

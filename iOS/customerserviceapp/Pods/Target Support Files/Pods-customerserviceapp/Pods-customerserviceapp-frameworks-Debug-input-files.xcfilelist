@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-customerserviceapp/Pods-customerserviceapp-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/OTPInputView/OTPInputView.framework
+${BUILT_PRODUCTS_DIR}/ValidationTextField/ValidationTextField.framework

@@ -3,82 +3,106 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11377A2513CC64AFFBCA80A7C34B761F /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F6A6AAF72032C93CF851C506E99067 /* OTPTextField.swift */; };
-		1F85F15F0B3717FDF826FF9C0D104A1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		05D9497CF8F2EA0A2CD11141711CC45E /* ValidationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2BBBAB279C420E8C114750C70AC60C /* ValidationTextField.swift */; };
+		11377A2513CC64AFFBCA80A7C34B761F /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8338CE31DC30B7FB753F87873A6E7B78 /* OTPTextField.swift */; };
+		297AFBF976059CD578423BD79ADE8979 /* ValidationTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EEC8F17AED488F5F31FC01A7AFF691 /* ValidationTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A8750026DA105F9D6C6752F12033DFB /* Pods-customerserviceappTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87BA45122CACBFC9DFAE300B0F39EDDF /* Pods-customerserviceappTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53FAC75CE2C37DF6ADBAAE7AE0A1F6AA /* OTPInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79696D515644CB45490C36B6454A00BA /* OTPInputView-dummy.m */; };
+		53FAC75CE2C37DF6ADBAAE7AE0A1F6AA /* OTPInputView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF786BFD219FEBEA5FAA7ED586FABB0 /* OTPInputView-dummy.m */; };
 		5E5F5691160D4C4BAAD278B6316CE8E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		63FD84749BFD48D406F0737CF9896EDD /* OTPInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8011B8296996427BF4AB0CA45FDDCB8B /* OTPInputView.swift */; };
+		63FD84749BFD48D406F0737CF9896EDD /* OTPInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4503DFDA9B42DE30C3D36116920719F6 /* OTPInputView.swift */; };
+		651E78A2A357FFFB45A5C5A0AE51E799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		6E6AE57C3105B99103B1D239A1B8B61C /* Pods-customerserviceapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F383DEF93AB4DB82CE0D8590DDAFAFCB /* Pods-customerserviceapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76900A52D08C1C9382FE49CDD6861238 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = EAF439156644094FA402673C0EE3DBE2 /* success.png */; };
+		8151ECCE95E2BD6A67059088C899D90F /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = B9291E646FFA0B05E2926621B9603488 /* error.png */; };
 		A12C4623DE4C9761B89D69F0A0C0C4F6 /* Pods-customerserviceappTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ABEB83579E521208CEDDD5A97D3E4E /* Pods-customerserviceappTests-dummy.m */; };
-		ABB8BD9B43046F6523D5AE119284FC34 /* Pods-customerserviceapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58CDDBA5ADB58495C8C2A7157A6B7B /* Pods-customerserviceapp-dummy.m */; };
 		AFDCA2FD40549591D48CF072579F934A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		E120A797A1431115EF6B320871D761CD /* Pods-customerserviceapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F383DEF93AB4DB82CE0D8590DDAFAFCB /* Pods-customerserviceapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA8300F69935B84C3C04B20000BFFEE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
 		E57A2E7B6979BBE7B7F53F7692745A12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		FE1AD323A762118D291BD5DB8DAF817D /* OTPInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60DB1BD011AA7CBB3D085CFE506A54F8 /* OTPInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F552F784178D252DF0FBCF9A192F3B9B /* Pods-customerserviceapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD58CDDBA5ADB58495C8C2A7157A6B7B /* Pods-customerserviceapp-dummy.m */; };
+		F88AE167225D6FF598AA51288C071EFC /* ValidationTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D19B962E104A22A15580233E6609615 /* ValidationTextField-dummy.m */; };
+		FE1AD323A762118D291BD5DB8DAF817D /* OTPInputView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CFD6335A32C9773E749C0A28ABD260B /* OTPInputView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9D7A0250422AE92B6CC743EA07AB7363 /* PBXContainerItemProxy */ = {
+		42A3582E2BC9CFA1D9022FADC578718F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 268BC1BBB6803FF7C1134B139858465F;
-			remoteInfo = OTPInputView;
+			remoteGlobalIDString = B222B2D3CB3BFE0816AAD3AD8F587325;
+			remoteInfo = ValidationTextField;
 		};
-		A95433E775DF7404AEDE8A7420D107EC /* PBXContainerItemProxy */ = {
+		D4A3F30A22388788AC3A60E7B67335BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DC62A3328F28495BBBC4878833D9A7E5;
 			remoteInfo = "Pods-customerserviceapp";
 		};
+		DF998D901901B0A90C25A7A0CA1DC98C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 268BC1BBB6803FF7C1134B139858465F;
+			remoteInfo = OTPInputView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F9A7C81BBAF0BE53B9ACE4727EC5AF /* OTPInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTPInputView.modulemap; sourceTree = "<group>"; };
 		0A63FCF63BC66AB8CA800AEA1DB36866 /* OTPInputView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTPInputView.framework; path = OTPInputView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CFD6335A32C9773E749C0A28ABD260B /* OTPInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPInputView-umbrella.h"; sourceTree = "<group>"; };
 		183E3F0F5DEBF37EAC33C7E2493BB4A5 /* Pods-customerserviceappTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-customerserviceappTests.modulemap"; sourceTree = "<group>"; };
+		19191B3C41D31F5CE6E63134C512FB9A /* ValidationTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ValidationTextField-Info.plist"; sourceTree = "<group>"; };
 		1EE83EA38ECFFFF2A8195005812E5078 /* Pods-customerserviceapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-customerserviceapp.modulemap"; sourceTree = "<group>"; };
 		227A843259729A5D036001EABA2F21DF /* Pods-customerserviceapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-customerserviceapp.release.xcconfig"; sourceTree = "<group>"; };
 		24680C3FB552564E7B4282D656BC48E8 /* Pods-customerserviceappTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-customerserviceappTests-Info.plist"; sourceTree = "<group>"; };
 		27B209774378BBC4B6B31B81CD3BA6D2 /* Pods-customerserviceapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-customerserviceapp.debug.xcconfig"; sourceTree = "<group>"; };
+		2A2BEE2CFBEC95F25E3A574EBFE97FD9 /* ValidationTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidationTextField.debug.xcconfig; sourceTree = "<group>"; };
+		2E183468EB9E8380A798168B63BB002E /* OTPInputView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPInputView.release.xcconfig; sourceTree = "<group>"; };
 		30ABEB83579E521208CEDDD5A97D3E4E /* Pods-customerserviceappTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-customerserviceappTests-dummy.m"; sourceTree = "<group>"; };
+		3630FC3BF84AE9598AFEA8B861E7B52E /* ValidationTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ValidationTextField.modulemap; sourceTree = "<group>"; };
+		3F6220F978E1AAD8DE6633841FDAAB48 /* OTPInputView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPInputView.debug.xcconfig; sourceTree = "<group>"; };
 		41687DC7C543D6CB7676B4055771D4F5 /* Pods-customerserviceappTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-customerserviceappTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		43F6A6AAF72032C93CF851C506E99067 /* OTPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPTextField.swift; path = OTPInputView/Classes/OTPTextField.swift; sourceTree = "<group>"; };
+		4503DFDA9B42DE30C3D36116920719F6 /* OTPInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPInputView.swift; path = OTPInputView/Classes/OTPInputView.swift; sourceTree = "<group>"; };
+		49416D2AB4FDA412F976109AEEFB6804 /* OTPInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPInputView-prefix.pch"; sourceTree = "<group>"; };
 		5141BCC574EAEC59822FF9BFF4AB8802 /* Pods_customerserviceapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_customerserviceapp.framework; path = "Pods-customerserviceapp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		60DB1BD011AA7CBB3D085CFE506A54F8 /* OTPInputView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPInputView-umbrella.h"; sourceTree = "<group>"; };
+		61EEC8F17AED488F5F31FC01A7AFF691 /* ValidationTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidationTextField-umbrella.h"; sourceTree = "<group>"; };
 		73413E52216D94788D2A89155143114A /* Pods_customerserviceappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_customerserviceappTests.framework; path = "Pods-customerserviceappTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		79696D515644CB45490C36B6454A00BA /* OTPInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTPInputView-dummy.m"; sourceTree = "<group>"; };
+		7CCD2B3871D20BE27D6B67D633C3DBB3 /* ValidationTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ValidationTextField-prefix.pch"; sourceTree = "<group>"; };
 		7DDEE6A634D04ACB234997D74E096077 /* Pods-customerserviceapp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-customerserviceapp-Info.plist"; sourceTree = "<group>"; };
-		8011B8296996427BF4AB0CA45FDDCB8B /* OTPInputView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPInputView.swift; path = OTPInputView/Classes/OTPInputView.swift; sourceTree = "<group>"; };
+		8338CE31DC30B7FB753F87873A6E7B78 /* OTPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPTextField.swift; path = OTPInputView/Classes/OTPTextField.swift; sourceTree = "<group>"; };
 		87BA45122CACBFC9DFAE300B0F39EDDF /* Pods-customerserviceappTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-customerserviceappTests-umbrella.h"; sourceTree = "<group>"; };
-		8EDE61333D4B36400410E966F45A05DA /* OTPInputView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTPInputView.modulemap; sourceTree = "<group>"; };
+		8D19B962E104A22A15580233E6609615 /* ValidationTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ValidationTextField-dummy.m"; sourceTree = "<group>"; };
 		8F60388F8F9DCBE11D3279554B32EAA4 /* Pods-customerserviceappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-customerserviceappTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8FF7F3572D7009C3583987FCAEC147A8 /* OTPInputView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OTPInputView-Info.plist"; sourceTree = "<group>"; };
+		943560CD8D7A6AB25C4366FC8A87287E /* ValidationTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ValidationTextField.release.xcconfig; sourceTree = "<group>"; };
+		956CB815BA831430E1879FCB5151B8EB /* ValidationTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ValidationTextField.framework; path = ValidationTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D02D7240A807C192C03F9FB9E953B9 /* OTPInputView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OTPInputView-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A207D3C19A0D25D0A2D3AF366186171A /* Pods-customerserviceappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-customerserviceappTests.release.xcconfig"; sourceTree = "<group>"; };
 		B7100DB0ACC210948CCBB7F3600E83D5 /* Pods-customerserviceapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-customerserviceapp-frameworks.sh"; sourceTree = "<group>"; };
+		B9291E646FFA0B05E2926621B9603488 /* error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = error.png; path = ValidationTextField/Assets/error.png; sourceTree = "<group>"; };
+		BAF786BFD219FEBEA5FAA7ED586FABB0 /* OTPInputView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTPInputView-dummy.m"; sourceTree = "<group>"; };
 		BB193EAD3496DF73378308C1223BA534 /* Pods-customerserviceapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-customerserviceapp-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB8705FD31146A2234E876FF46C57B1B /* OTPInputView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPInputView.debug.xcconfig; sourceTree = "<group>"; };
-		CBD5528F3F33C8F81AEA7CE92C44C669 /* OTPInputView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPInputView.release.xcconfig; sourceTree = "<group>"; };
+		CC2BBBAB279C420E8C114750C70AC60C /* ValidationTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationTextField.swift; path = ValidationTextField/Classes/ValidationTextField.swift; sourceTree = "<group>"; };
 		CCBF7D97E5E8E41AFA25CB36033E976A /* Pods-customerserviceapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-customerserviceapp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D2FC0149A6B83463B968D510030C50A9 /* OTPInputView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPInputView-prefix.pch"; sourceTree = "<group>"; };
 		DD58CDDBA5ADB58495C8C2A7157A6B7B /* Pods-customerserviceapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-customerserviceapp-dummy.m"; sourceTree = "<group>"; };
 		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EAF439156644094FA402673C0EE3DBE2 /* success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = success.png; path = ValidationTextField/Assets/success.png; sourceTree = "<group>"; };
 		F383DEF93AB4DB82CE0D8590DDAFAFCB /* Pods-customerserviceapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-customerserviceapp-umbrella.h"; sourceTree = "<group>"; };
 		F80674DFFBC6BB9BA552859A8C1090BB /* Pods-customerserviceappTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-customerserviceappTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0F223CB72CC9A6F92243172C8683D2DC /* Frameworks */ = {
+		2B788E9498C5E68721DDC041B8457D1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F85F15F0B3717FDF826FF9C0D104A1B /* Foundation.framework in Frameworks */,
+				651E78A2A357FFFB45A5C5A0AE51E799 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +123,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C865497F53AC30258BB28E598C02CED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA8300F69935B84C3C04B20000BFFEE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EAF5DC832B1F65A85782EDAE61E601D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12BF1D9F9EB59ACD275D07A0D8752FF0 /* OTPInputView */,
+				3083E7A11A96AEBD8D15ECABB56A5DB5 /* ValidationTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		12BF1D9F9EB59ACD275D07A0D8752FF0 /* OTPInputView */ = {
+			isa = PBXGroup;
+			children = (
+				4503DFDA9B42DE30C3D36116920719F6 /* OTPInputView.swift */,
+				8338CE31DC30B7FB753F87873A6E7B78 /* OTPTextField.swift */,
+				E96F9279A0A056332B52C1170631DF33 /* Support Files */,
+			);
+			name = OTPInputView;
+			path = OTPInputView;
+			sourceTree = "<group>";
+		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,23 +162,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1C663820A00164274D2F7DE4C9F22638 /* OTPInputView */ = {
+		3083E7A11A96AEBD8D15ECABB56A5DB5 /* ValidationTextField */ = {
 			isa = PBXGroup;
 			children = (
-				8011B8296996427BF4AB0CA45FDDCB8B /* OTPInputView.swift */,
-				43F6A6AAF72032C93CF851C506E99067 /* OTPTextField.swift */,
-				A19C68CFB198FB7858F2F7B01AB24187 /* Support Files */,
+				CC2BBBAB279C420E8C114750C70AC60C /* ValidationTextField.swift */,
+				37EC35670CB9971EA627D44D461DAC39 /* Resources */,
+				9247860BAC8E2EB6BEF5DBE966B1B01A /* Support Files */,
 			);
-			name = OTPInputView;
-			path = OTPInputView;
+			name = ValidationTextField;
+			path = ValidationTextField;
 			sourceTree = "<group>";
 		};
-		2D5CCCE1FEE15884D67578D53C14677A /* Pods */ = {
+		37EC35670CB9971EA627D44D461DAC39 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1C663820A00164274D2F7DE4C9F22638 /* OTPInputView */,
+				B9291E646FFA0B05E2926621B9603488 /* error.png */,
+				EAF439156644094FA402673C0EE3DBE2 /* success.png */,
 			);
-			name = Pods;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -171,19 +224,19 @@
 			path = "Target Support Files/Pods-customerserviceapp";
 			sourceTree = "<group>";
 		};
-		A19C68CFB198FB7858F2F7B01AB24187 /* Support Files */ = {
+		9247860BAC8E2EB6BEF5DBE966B1B01A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				8EDE61333D4B36400410E966F45A05DA /* OTPInputView.modulemap */,
-				79696D515644CB45490C36B6454A00BA /* OTPInputView-dummy.m */,
-				8FF7F3572D7009C3583987FCAEC147A8 /* OTPInputView-Info.plist */,
-				D2FC0149A6B83463B968D510030C50A9 /* OTPInputView-prefix.pch */,
-				60DB1BD011AA7CBB3D085CFE506A54F8 /* OTPInputView-umbrella.h */,
-				CB8705FD31146A2234E876FF46C57B1B /* OTPInputView.debug.xcconfig */,
-				CBD5528F3F33C8F81AEA7CE92C44C669 /* OTPInputView.release.xcconfig */,
+				3630FC3BF84AE9598AFEA8B861E7B52E /* ValidationTextField.modulemap */,
+				8D19B962E104A22A15580233E6609615 /* ValidationTextField-dummy.m */,
+				19191B3C41D31F5CE6E63134C512FB9A /* ValidationTextField-Info.plist */,
+				7CCD2B3871D20BE27D6B67D633C3DBB3 /* ValidationTextField-prefix.pch */,
+				61EEC8F17AED488F5F31FC01A7AFF691 /* ValidationTextField-umbrella.h */,
+				2A2BEE2CFBEC95F25E3A574EBFE97FD9 /* ValidationTextField.debug.xcconfig */,
+				943560CD8D7A6AB25C4366FC8A87287E /* ValidationTextField.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/OTPInputView";
+			path = "../Target Support Files/ValidationTextField";
 			sourceTree = "<group>";
 		};
 		A448ED9A7AE4FCCCF1BA3C5775D77FE0 /* Targets Support Files */ = {
@@ -195,30 +248,54 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C7B44A6A2B0F7476991B85C564292478 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0A63FCF63BC66AB8CA800AEA1DB36866 /* OTPInputView.framework */,
-				5141BCC574EAEC59822FF9BFF4AB8802 /* Pods_customerserviceapp.framework */,
-				73413E52216D94788D2A89155143114A /* Pods_customerserviceappTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				2D5CCCE1FEE15884D67578D53C14677A /* Pods */,
-				C7B44A6A2B0F7476991B85C564292478 /* Products */,
+				0EAF5DC832B1F65A85782EDAE61E601D /* Pods */,
+				FFEEFC682B63CE8B28D40E5EADD311A7 /* Products */,
 				A448ED9A7AE4FCCCF1BA3C5775D77FE0 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		E96F9279A0A056332B52C1170631DF33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02F9A7C81BBAF0BE53B9ACE4727EC5AF /* OTPInputView.modulemap */,
+				BAF786BFD219FEBEA5FAA7ED586FABB0 /* OTPInputView-dummy.m */,
+				95D02D7240A807C192C03F9FB9E953B9 /* OTPInputView-Info.plist */,
+				49416D2AB4FDA412F976109AEEFB6804 /* OTPInputView-prefix.pch */,
+				0CFD6335A32C9773E749C0A28ABD260B /* OTPInputView-umbrella.h */,
+				3F6220F978E1AAD8DE6633841FDAAB48 /* OTPInputView.debug.xcconfig */,
+				2E183468EB9E8380A798168B63BB002E /* OTPInputView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OTPInputView";
+			sourceTree = "<group>";
+		};
+		FFEEFC682B63CE8B28D40E5EADD311A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A63FCF63BC66AB8CA800AEA1DB36866 /* OTPInputView.framework */,
+				5141BCC574EAEC59822FF9BFF4AB8802 /* Pods_customerserviceapp.framework */,
+				73413E52216D94788D2A89155143114A /* Pods_customerserviceappTests.framework */,
+				956CB815BA831430E1879FCB5151B8EB /* ValidationTextField.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0301D49A268F910BEF24F5D6A39181B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6AE57C3105B99103B1D239A1B8B61C /* Pods-customerserviceapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7995D7D3AD1E4EB403AFC543484702DE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -235,11 +312,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0C596AD8861A71FFA49330377F026E7 /* Headers */ = {
+		AC62F0ACF89BA7931B86F0E1F07E00DC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E120A797A1431115EF6B320871D761CD /* Pods-customerserviceapp-umbrella.h in Headers */,
+				297AFBF976059CD578423BD79ADE8979 /* ValidationTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +341,24 @@
 			productReference = 0A63FCF63BC66AB8CA800AEA1DB36866 /* OTPInputView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B222B2D3CB3BFE0816AAD3AD8F587325 /* ValidationTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D7584A9C3B13D8CAD4470950A246CC4 /* Build configuration list for PBXNativeTarget "ValidationTextField" */;
+			buildPhases = (
+				AC62F0ACF89BA7931B86F0E1F07E00DC /* Headers */,
+				093C6A7512F8C71F4BFB747A9E5AAC61 /* Sources */,
+				C865497F53AC30258BB28E598C02CED9 /* Frameworks */,
+				38E4927929FA695E624EEF43A021E58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValidationTextField;
+			productName = ValidationTextField;
+			productReference = 956CB815BA831430E1879FCB5151B8EB /* ValidationTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B2E8092EDA5E01D3AB44BA3EC0819771 /* Pods-customerserviceappTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B11804843FE32726AA9AB3D6900DCB0A /* Build configuration list for PBXNativeTarget "Pods-customerserviceappTests" */;
@@ -276,7 +371,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C4C97E9FE272F59250C5ED50B2CEC054 /* PBXTargetDependency */,
+				9F751FD8EED1827F9DE5ECE6810A9533 /* PBXTargetDependency */,
 			);
 			name = "Pods-customerserviceappTests";
 			productName = "Pods-customerserviceappTests";
@@ -285,17 +380,18 @@
 		};
 		DC62A3328F28495BBBC4878833D9A7E5 /* Pods-customerserviceapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18D89C23F00C8DD17970AE397FEB49A7 /* Build configuration list for PBXNativeTarget "Pods-customerserviceapp" */;
+			buildConfigurationList = 786014F1D7E2401A5687F397D60DDECF /* Build configuration list for PBXNativeTarget "Pods-customerserviceapp" */;
 			buildPhases = (
-				C0C596AD8861A71FFA49330377F026E7 /* Headers */,
-				82E2AE85E2D2E21A28839E4E4DAD88F5 /* Sources */,
-				0F223CB72CC9A6F92243172C8683D2DC /* Frameworks */,
-				402172C59DCB30054D92D33C848E55E7 /* Resources */,
+				0301D49A268F910BEF24F5D6A39181B2 /* Headers */,
+				C7A7C635FD90F6666FA78C70F4394D28 /* Sources */,
+				2B788E9498C5E68721DDC041B8457D1C /* Frameworks */,
+				90A48634E1A54A36B4CE163DC13F252F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B146CABAB15B967D2452A3490A586545 /* PBXTargetDependency */,
+				7DAEEDE5D500E9BA9FBC20343685C0D4 /* PBXTargetDependency */,
+				E00072B5FA5E9B8D981F5AD56BA6776F /* PBXTargetDependency */,
 			);
 			name = "Pods-customerserviceapp";
 			productName = "Pods-customerserviceapp";
@@ -312,7 +408,7 @@
 				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -320,13 +416,14 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C7B44A6A2B0F7476991B85C564292478 /* Products */;
+			productRefGroup = FFEEFC682B63CE8B28D40E5EADD311A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				268BC1BBB6803FF7C1134B139858465F /* OTPInputView */,
 				DC62A3328F28495BBBC4878833D9A7E5 /* Pods-customerserviceapp */,
 				B2E8092EDA5E01D3AB44BA3EC0819771 /* Pods-customerserviceappTests */,
+				B222B2D3CB3BFE0816AAD3AD8F587325 /* ValidationTextField */,
 			);
 		};
 /* End PBXProject section */
@@ -346,7 +443,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		402172C59DCB30054D92D33C848E55E7 /* Resources */ = {
+		38E4927929FA695E624EEF43A021E58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8151ECCE95E2BD6A67059088C899D90F /* error.png in Resources */,
+				76900A52D08C1C9382FE49CDD6861238 /* success.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A48634E1A54A36B4CE163DC13F252F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -364,6 +470,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		093C6A7512F8C71F4BFB747A9E5AAC61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F88AE167225D6FF598AA51288C071EFC /* ValidationTextField-dummy.m in Sources */,
+				05D9497CF8F2EA0A2CD11141711CC45E /* ValidationTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		451B0255DCEC39E77001821751EECF4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,28 +489,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82E2AE85E2D2E21A28839E4E4DAD88F5 /* Sources */ = {
+		C7A7C635FD90F6666FA78C70F4394D28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABB8BD9B43046F6523D5AE119284FC34 /* Pods-customerserviceapp-dummy.m in Sources */,
+				F552F784178D252DF0FBCF9A192F3B9B /* Pods-customerserviceapp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B146CABAB15B967D2452A3490A586545 /* PBXTargetDependency */ = {
+		7DAEEDE5D500E9BA9FBC20343685C0D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OTPInputView;
 			target = 268BC1BBB6803FF7C1134B139858465F /* OTPInputView */;
-			targetProxy = 9D7A0250422AE92B6CC743EA07AB7363 /* PBXContainerItemProxy */;
+			targetProxy = DF998D901901B0A90C25A7A0CA1DC98C /* PBXContainerItemProxy */;
 		};
-		C4C97E9FE272F59250C5ED50B2CEC054 /* PBXTargetDependency */ = {
+		9F751FD8EED1827F9DE5ECE6810A9533 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-customerserviceapp";
 			target = DC62A3328F28495BBBC4878833D9A7E5 /* Pods-customerserviceapp */;
-			targetProxy = A95433E775DF7404AEDE8A7420D107EC /* PBXContainerItemProxy */;
+			targetProxy = D4A3F30A22388788AC3A60E7B67335BA /* PBXContainerItemProxy */;
+		};
+		E00072B5FA5E9B8D981F5AD56BA6776F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ValidationTextField;
+			target = B222B2D3CB3BFE0816AAD3AD8F587325 /* ValidationTextField */;
+			targetProxy = 42A3582E2BC9CFA1D9022FADC578718F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -464,7 +585,7 @@
 		};
 		1563B08D5CFDC6F9E9FC62194805CAE1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBD5528F3F33C8F81AEA7CE92C44C669 /* OTPInputView.release.xcconfig */;
+			baseConfigurationReference = 2E183468EB9E8380A798168B63BB002E /* OTPInputView.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -535,7 +656,41 @@
 			};
 			name = Debug;
 		};
-		5B3BD9B2628A9E0C18EE7DB56F9F8FF9 /* Debug */ = {
+		5A3EAD4B5ACEC5D0E1CF00B29DD04F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2BEE2CFBEC95F25E3A574EBFE97FD9 /* ValidationTextField.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ValidationTextField/ValidationTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValidationTextField/ValidationTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ValidationTextField/ValidationTextField.modulemap";
+				PRODUCT_MODULE_NAME = ValidationTextField;
+				PRODUCT_NAME = ValidationTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B36417BA3131B194981458258CD8064 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27B209774378BBC4B6B31B81CD3BA6D2 /* Pods-customerserviceapp.debug.xcconfig */;
 			buildSettings = {
@@ -571,44 +726,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		60A5A3C98AB65B755DB2FABC392AD705 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 227A843259729A5D036001EABA2F21DF /* Pods-customerserviceapp.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-customerserviceapp/Pods-customerserviceapp-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-customerserviceapp/Pods-customerserviceapp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		63F3DEED32158237B16C2F21CD658E9F /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -650,7 +767,7 @@
 		};
 		87941C70AB55C530C546BEE657E5AB34 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB8705FD31146A2234E876FF46C57B1B /* OTPInputView.debug.xcconfig */;
+			baseConfigurationReference = 3F6220F978E1AAD8DE6633841FDAAB48 /* OTPInputView.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -682,6 +799,79 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9594AB24DC19388B35261C382C8E9D26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 943560CD8D7A6AB25C4366FC8A87287E /* ValidationTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ValidationTextField/ValidationTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ValidationTextField/ValidationTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ValidationTextField/ValidationTextField.modulemap";
+				PRODUCT_MODULE_NAME = ValidationTextField;
+				PRODUCT_NAME = ValidationTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE65495923983C09C777756E6B0471FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227A843259729A5D036001EABA2F21DF /* Pods-customerserviceapp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-customerserviceapp/Pods-customerserviceapp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-customerserviceapp/Pods-customerserviceapp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D37CD465EC03E96673A76466BB806A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -752,11 +942,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18D89C23F00C8DD17970AE397FEB49A7 /* Build configuration list for PBXNativeTarget "Pods-customerserviceapp" */ = {
+		0D7584A9C3B13D8CAD4470950A246CC4 /* Build configuration list for PBXNativeTarget "ValidationTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5B3BD9B2628A9E0C18EE7DB56F9F8FF9 /* Debug */,
-				60A5A3C98AB65B755DB2FABC392AD705 /* Release */,
+				5A3EAD4B5ACEC5D0E1CF00B29DD04F9E /* Debug */,
+				9594AB24DC19388B35261C382C8E9D26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -775,6 +965,15 @@
 			buildConfigurations = (
 				87941C70AB55C530C546BEE657E5AB34 /* Debug */,
 				1563B08D5CFDC6F9E9FC62194805CAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786014F1D7E2401A5687F397D60DDECF /* Build configuration list for PBXNativeTarget "Pods-customerserviceapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B36417BA3131B194981458258CD8064 /* Debug */,
+				BE65495923983C09C777756E6B0471FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

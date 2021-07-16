@@ -7,6 +7,7 @@ target 'customerserviceapp' do
 
   # Pods for customerserviceapp
   pod 'OTPInputView'
+  pod 'ValidationTextField'
 
   target 'customerserviceappTests' do
     inherit! :search_paths
