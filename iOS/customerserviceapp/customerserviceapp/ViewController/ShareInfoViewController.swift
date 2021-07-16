@@ -30,6 +30,9 @@ class ShareInfoViewController: UIViewController {
         super.viewDidLoad()
 
         setupImageForTextFields()
+        self.navigationController?.navigationBar.barStyle = .default
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        self.navigationItem.title = "Share Information"
     }
     
     private func setupImageForTextFields() {

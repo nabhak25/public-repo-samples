@@ -46,9 +46,24 @@ extension OtpViewController: OTPViewDelegate {
     
     func otpNotValid() {
         print("Error")
-        if let vc = UIStoryboard(name: "Details", bundle: nil).instantiateViewController(withIdentifier: "HomeScreen") as? HomeViewController
-        {
-            present(vc, animated: true, completion: nil)
+        //        if let vc = UIStoryboard(name: "Details", bundle: nil).instantiateViewController(withIdentifier: "HomeScreen") as? HomeViewController
+        //        {
+        //            present(vc, animated: true, completion: nil)
+        //        }
+        
+        //        if let vc = UIStoryboard(name: "Details", bundle: nil).instantiateViewController(identifier: "HomeScreen") as? HomeViewController {
+        //            let navController = UINavigationController(rootViewController: vc) // Creating a navigation controller with vc at the root of the navigation stack.
+        //            present(navController, animated:true, completion: nil)
+        //        }
+        
+        let parentVC = presentingViewController
+        dismiss(animated: true) {
+            if let vc = UIStoryboard(name: "Details", bundle: nil).instantiateViewController(identifier: "HomeScreen") as? HomeViewController {
+                let navController = UINavigationController(rootViewController: vc) // Creating a navigation controller with vc at the root of the navigation stack.
+                navController.navigationBar.barTintColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
+                navController.navigationBar.tintColor = UIColor.white
+                parentVC?.present(navController, animated:true, completion: nil)
+            }
         }
     }
 }

@@ -19,6 +19,9 @@ class HomeViewController: UIViewController {
     }
     
     private func setupViews() {
+        self.navigationController?.navigationBar.barStyle = .default
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        self.navigationItem.title = "Home"
         shareInfoButton.rounded()
         viewInfoButton.rounded()
     }
@@ -26,19 +29,19 @@ class HomeViewController: UIViewController {
     
     @IBAction func shareInfoClicked(_ sender: UIButton) {
         print("share info")
-        if let vc = UIStoryboard(name: "Details", bundle: nil).instantiateViewController(withIdentifier: "shareInfoScreen") as? ShareInfoViewController
-        {
-            present(vc, animated: true, completion: nil)
-        }
+//        if let vc = UIStoryboard(name: "Details", bundle: nil).instantiateViewController(withIdentifier: "shareInfoScreen") as? ShareInfoViewController
+//        {
+//            present(vc, animated: true, completion: nil)
+//        }
     }
     
     
     @IBAction func viewInfoClicked(_ sender: UIButton) {
         print("view info")
-        if let vc = UIStoryboard(name: "Details", bundle: nil).instantiateViewController(withIdentifier: "viewInfoScreen") as? ViewInfoTableViewController
-        {
-            present(vc, animated: true, completion: nil)
-        }
+//        if let vc = UIStoryboard(name: "Details", bundle: nil).instantiateViewController(withIdentifier: "viewInfoScreen") as? ViewInfoTableViewController
+//        {
+//            present(vc, animated: true, completion: nil)
+//        }
     }
     
     
