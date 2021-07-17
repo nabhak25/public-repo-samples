@@ -348,7 +348,7 @@ Police Station?</string>
                                                 <rect key="frame" x="8" y="722" width="398" height="350"/>
                                                 <subviews>
                                                     <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Problem/Information Details" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X91-s7-tTm">
-                                                        <rect key="frame" x="8" y="12" width="382" height="100"/>
+                                                        <rect key="frame" x="0.0" y="12" width="398" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="XP9-jS-ky3"/>
                                                         </constraints>
@@ -436,8 +436,8 @@ Police Station?</string>
                                                 <constraints>
                                                     <constraint firstItem="X91-s7-tTm" firstAttribute="top" secondItem="3FM-qj-yFv" secondAttribute="top" constant="12" id="0ZC-X3-7Mp"/>
                                                     <constraint firstItem="J09-PZ-8sw" firstAttribute="leading" secondItem="r1o-7K-f3J" secondAttribute="trailing" constant="8" id="3Mj-Wa-veX"/>
-                                                    <constraint firstItem="X91-s7-tTm" firstAttribute="leading" secondItem="3FM-qj-yFv" secondAttribute="leading" constant="8" id="7ya-v8-CyC"/>
-                                                    <constraint firstAttribute="trailing" secondItem="X91-s7-tTm" secondAttribute="trailing" constant="8" id="Aom-d1-kRZ"/>
+                                                    <constraint firstItem="X91-s7-tTm" firstAttribute="leading" secondItem="3FM-qj-yFv" secondAttribute="leading" id="7ya-v8-CyC"/>
+                                                    <constraint firstAttribute="trailing" secondItem="X91-s7-tTm" secondAttribute="trailing" id="Aom-d1-kRZ"/>
                                                     <constraint firstItem="2Je-09-te6" firstAttribute="top" secondItem="r1o-7K-f3J" secondAttribute="bottom" constant="20" id="CrG-0m-bAG"/>
                                                     <constraint firstAttribute="trailing" secondItem="7Gk-97-Bdu" secondAttribute="trailing" constant="8" id="J1r-0E-dq1"/>
                                                     <constraint firstItem="r1o-7K-f3J" firstAttribute="top" secondItem="Cws-Ta-TLS" secondAttribute="bottom" constant="20" id="Ngz-Xx-F6o"/>
