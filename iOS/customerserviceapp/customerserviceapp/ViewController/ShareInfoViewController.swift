@@ -8,6 +8,7 @@
 
 import UIKit
 import ValidationTextField
+import CoreLocation
 
 class ShareInfoViewController: UIViewController {
     
@@ -31,11 +32,7 @@ class ShareInfoViewController: UIViewController {
     
     @IBOutlet weak var buttonPhoto: UIButton!
     
-    
     @IBOutlet weak var buttonAudio: UIButton!
-    
-    
-    
     
     let districtPickerView = UIPickerView()
     
@@ -44,6 +41,8 @@ class ShareInfoViewController: UIViewController {
     private let jsonReader = JsonReader()
     private let imagePicker = UIImagePickerController()
     private var imageUtils = ImageUtils()
+    let locationManager = CLLocationManager()
+    
     
     var districtModel = [District]()
     var incidentModel = [Incident]()
@@ -55,6 +54,25 @@ class ShareInfoViewController: UIViewController {
         setupNavigationBar()
         readJsonFile()
         setUpPickerView()
+        setupLocation()
+    }
+    
+    private func setupLocation() {
+        let locStatus = CLLocationManager.authorizationStatus()
+        switch locStatus {
+        case .notDetermined:
+            locationManager.requestWhenInUseAuthorization()
+            return
+        case .denied, .restricted:
+            let alert = UIAlertController(title: "Location Services are disabled", message: "Please enable Location Services in your Settings", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alert.addAction(okAction)
+            present(alert, animated: true, completion: nil)
+            return
+        case .authorizedAlways, .authorizedWhenInUse:
+            print("Authorized to use location")
+            break
+        }
     }
     
     private func setUpPickerView() {
