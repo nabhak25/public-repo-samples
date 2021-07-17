@@ -34,6 +34,9 @@ class ShareInfoViewController: UIViewController {
     
     @IBOutlet weak var buttonAudio: UIButton!
     
+    
+    @IBOutlet weak var knowYourPoliceStationButton: UIButton!
+    
     let districtPickerView = UIPickerView()
     
     let incidentPickerView = UIPickerView()
@@ -155,6 +158,7 @@ class ShareInfoViewController: UIViewController {
         // Button tint color
         buttonPhoto.tintColor = #colorLiteral(red: 0.4549019608, green: 0.8078431373, blue: 0.2117647059, alpha: 1)
         buttonAudio.tintColor = #colorLiteral(red: 0.4549019608, green: 0.8078431373, blue: 0.2117647059, alpha: 1)
+        knowYourPoliceStationButton.sizeToFit()
         
     }
     

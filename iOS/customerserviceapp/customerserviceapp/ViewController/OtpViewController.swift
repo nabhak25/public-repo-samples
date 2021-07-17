@@ -16,6 +16,8 @@ class OtpViewController: UIViewController {
     @IBOutlet weak var verifyButton: UIButton!
     @IBOutlet weak var retryButton: UIButton!
     
+    @IBOutlet weak var progressBar: UIActivityIndicatorView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpViews()
@@ -23,6 +25,7 @@ class OtpViewController: UIViewController {
     }
     
     @IBAction func onVerifyButtonClicked(_ sender: Any) {
+        progressBar.isHidden = false
         otpInputField.otpFetch()
     }
     
@@ -38,6 +41,7 @@ extension OtpViewController: OTPViewDelegate {
     
     func didFinishedEnterOTP(otpNumber: String) {
         print("OTP entered: \(otpNumber)")
+        progressBar.isHidden = true
         if let vc = UIStoryboard(name: "Details", bundle: nil).instantiateViewController(withIdentifier: "HomeScreen") as? HomeViewController
         {
             present(vc, animated: true, completion: nil)

@@ -28,7 +28,7 @@
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <inset key="titleEdgeInsets" minX="-15" minY="0.0" maxX="5" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="-150" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Share Information" image="ic_mobile">
+                                        <state key="normal" title="Share Information" image="ic_shared_list_colored">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -45,7 +45,7 @@
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <inset key="titleEdgeInsets" minX="-15" minY="0.0" maxX="5" maxY="0.0"/>
                                         <inset key="imageEdgeInsets" minX="-150" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="View Information" image="ic_calendar">
+                                        <state key="normal" title="View Information" image="ic_view_fir">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -478,7 +478,7 @@ Police Station?</string>
                                             <constraint firstItem="Tle-us-DAm" firstAttribute="top" secondItem="SNZ-nm-vVI" secondAttribute="bottom" constant="32" id="E1Z-GB-h9v"/>
                                             <constraint firstItem="3FM-qj-yFv" firstAttribute="top" secondItem="Kv5-lh-1wt" secondAttribute="bottom" constant="24" id="G0j-it-aag"/>
                                             <constraint firstItem="p45-Gy-iZ3" firstAttribute="top" secondItem="3gA-Ze-33A" secondAttribute="top" constant="48" id="Gvh-n4-hzP"/>
-                                            <constraint firstItem="m7I-Ot-Oxy" firstAttribute="leading" secondItem="gLw-Nj-HPN" secondAttribute="trailing" constant="32" id="HOb-M9-adV"/>
+                                            <constraint firstItem="m7I-Ot-Oxy" firstAttribute="leading" secondItem="gLw-Nj-HPN" secondAttribute="trailing" priority="750" constant="32" id="HOb-M9-adV"/>
                                             <constraint firstItem="12U-pb-2lA" firstAttribute="top" secondItem="3FM-qj-yFv" secondAttribute="bottom" constant="24" id="J42-mW-f68"/>
                                             <constraint firstItem="m7I-Ot-Oxy" firstAttribute="top" secondItem="IUb-af-NdS" secondAttribute="bottom" constant="22" id="ND5-i0-kNg"/>
                                             <constraint firstItem="YAM-KV-xXI" firstAttribute="leading" secondItem="Kvw-3P-Zro" secondAttribute="trailing" constant="8" id="OLA-vc-e2h"/>
@@ -535,6 +535,7 @@ Police Station?</string>
                         <outlet property="buttonAudio" destination="5TR-qo-3Gg" id="hNg-BD-P6y"/>
                         <outlet property="buttonPhoto" destination="7nk-Ua-lqB" id="ZZU-p8-V06"/>
                         <outlet property="districtTextField" destination="GzR-O2-b4C" id="qfX-el-f8C"/>
+                        <outlet property="knowYourPoliceStationButton" destination="m7I-Ot-Oxy" id="AcG-vi-u6w"/>
                         <outlet property="mobileNumberTextField" destination="80I-pd-92K" id="dfx-B9-T9P"/>
                         <outlet property="nameTextField" destination="pOm-aG-T87" id="ceE-tb-sTG"/>
                         <outlet property="natureTextField" destination="DDF-5t-OJr" id="nx4-AJ-GnQ"/>
@@ -575,7 +576,8 @@ Police Station?</string>
         <image name="ic_audio" width="48" height="48"/>
         <image name="ic_calendar" width="48" height="48"/>
         <image name="ic_camera" width="48" height="48"/>
-        <image name="ic_mobile" width="48" height="48"/>
+        <image name="ic_shared_list_colored" width="40" height="40"/>
+        <image name="ic_view_fir" width="30" height="30"/>
         <namedColor name="otp_button_color">
             <color red="0.45490196078431372" green="0.80784313725490198" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

@@ -57,11 +57,11 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zS0-5z-Ulv">
-                                <rect key="frame" x="55" y="479" width="300" height="60"/>
+                                <rect key="frame" x="55" y="479" width="304" height="60"/>
                                 <color key="backgroundColor" name="otp_button_color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="OSC-WY-eBc"/>
-                                    <constraint firstAttribute="width" constant="300" id="rnS-Pv-gpv"/>
+                                    <constraint firstAttribute="width" priority="750" constant="300" id="rnS-Pv-gpv"/>
                                 </constraints>
                                 <state key="normal" title="GET OTP">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -75,6 +75,7 @@
                         <constraints>
                             <constraint firstItem="zS0-5z-Ulv" firstAttribute="leading" secondItem="FgK-x5-mI0" secondAttribute="leading" constant="55" id="4Nq-zv-j9y"/>
                             <constraint firstItem="1ki-cB-Q4r" firstAttribute="leading" secondItem="FgK-x5-mI0" secondAttribute="leading" constant="87" id="5dp-mc-1JH"/>
+                            <constraint firstItem="FgK-x5-mI0" firstAttribute="trailing" secondItem="zS0-5z-Ulv" secondAttribute="trailing" constant="55" id="9Hw-IR-ESj"/>
                             <constraint firstItem="FgK-x5-mI0" firstAttribute="trailing" secondItem="1ki-cB-Q4r" secondAttribute="trailing" constant="87" id="C1j-40-Gjp"/>
                             <constraint firstItem="FgK-x5-mI0" firstAttribute="trailing" secondItem="WQb-rO-2Mr" secondAttribute="trailing" constant="20" id="DHf-CD-SHR"/>
                             <constraint firstItem="1ki-cB-Q4r" firstAttribute="top" secondItem="FgK-x5-mI0" secondAttribute="top" constant="50" id="Dzv-Gg-ecg"/>
@@ -187,13 +188,19 @@
                                     <action selector="onVerifyButtonClicked:" destination="eai-O0-tJ9" eventType="touchUpInside" id="0qG-cA-CjB"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="r1t-sp-Zee">
+                                <rect key="frame" x="188.5" y="434.5" width="37" height="37"/>
+                                <color key="color" name="color_dark_green"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="1fQ-kW-Kbh" firstAttribute="centerX" secondItem="keT-Ba-aBg" secondAttribute="centerX" id="2jH-3M-Uo6"/>
                             <constraint firstItem="zZ5-dp-3KS" firstAttribute="top" secondItem="lvQ-Io-p4M" secondAttribute="bottom" constant="36" id="IPw-Sw-Svy"/>
+                            <constraint firstItem="r1t-sp-Zee" firstAttribute="centerY" secondItem="keT-Ba-aBg" secondAttribute="centerY" id="JYc-h9-aJa"/>
                             <constraint firstItem="zZ5-dp-3KS" firstAttribute="centerX" secondItem="keT-Ba-aBg" secondAttribute="centerX" id="RI6-pz-peG"/>
                             <constraint firstItem="lvQ-Io-p4M" firstAttribute="top" secondItem="1fQ-kW-Kbh" secondAttribute="bottom" constant="32" id="Vod-IF-IEJ"/>
+                            <constraint firstItem="r1t-sp-Zee" firstAttribute="centerX" secondItem="keT-Ba-aBg" secondAttribute="centerX" id="YsT-0H-WMV"/>
                             <constraint firstItem="keT-Ba-aBg" firstAttribute="centerY" secondItem="fBR-Xj-AHN" secondAttribute="centerY" id="dhP-PF-TND"/>
                             <constraint firstItem="keT-Ba-aBg" firstAttribute="centerX" secondItem="fBR-Xj-AHN" secondAttribute="centerX" id="tua-9u-uHp"/>
                             <constraint firstItem="lvQ-Io-p4M" firstAttribute="centerX" secondItem="keT-Ba-aBg" secondAttribute="centerX" id="vDD-ec-mRs"/>
@@ -203,6 +210,7 @@
                     </view>
                     <connections>
                         <outlet property="otpInputField" destination="lvQ-Io-p4M" id="S3T-oJ-pCp"/>
+                        <outlet property="progressBar" destination="r1t-sp-Zee" id="EbE-xX-xIc"/>
                         <outlet property="retryButton" destination="Aof-Fz-5dk" id="PNt-F9-jW2"/>
                         <outlet property="verifyButton" destination="zZ5-dp-3KS" id="apU-jj-UcJ"/>
                     </connections>
