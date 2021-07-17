@@ -240,7 +240,7 @@
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Number (Optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="80I-pd-92K">
                                                         <rect key="frame" x="0.0" y="64" width="398" height="45"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address (Optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C6S-4M-uTW">
                                                         <rect key="frame" x="0.0" y="128" width="398" height="45"/>
@@ -276,18 +276,31 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="IUb-af-NdS">
                                                 <rect key="frame" x="8" y="320" width="398" height="252"/>
                                                 <subviews>
-                                                    <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nature of Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DDF-5t-OJr">
+                                                    <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nature of Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DDF-5t-OJr" customClass="ValidationTextField" customModule="ValidationTextField">
                                                         <rect key="frame" x="0.0" y="0.0" width="398" height="45"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="45" id="2wF-fm-DdU"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Nature of Complaint"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                                                <color key="value" red="0.56706690790000003" green="0.1283414662" blue="0.1249383315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
                                                     </textField>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place of Incident" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Lb-No-RFx">
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place of Incident" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Lb-No-RFx" customClass="ValidationTextField" customModule="ValidationTextField">
                                                         <rect key="frame" x="0.0" y="69" width="398" height="45"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="titleText" value="Place of Incident"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="errorColor">
+                                                                <color key="value" red="0.56706690790000003" green="0.1283414662" blue="0.1249383315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="errorMessage" value="Input length must be greater than or equal to 2."/>
+                                                        </userDefinedRuntimeAttributes>
                                                     </textField>
                                                     <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="District" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GzR-O2-b4C">
                                                         <rect key="frame" x="0.0" y="138" width="398" height="45"/>
@@ -319,6 +332,9 @@ Police Station?</string>
                                                 <state key="normal" title="KNOW YOUR POLICE STATION">
                                                     <color key="titleColor" name="otp_button_color"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="knowYourPoliceStationClicked:" destination="yce-ig-8hq" eventType="touchUpInside" id="WHI-fh-6Qs"/>
+                                                </connections>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Suspect Name / Suspect Thing" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kv5-lh-1wt">
                                                 <rect key="frame" x="8" y="653" width="398" height="45"/>
@@ -331,7 +347,7 @@ Police Station?</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3FM-qj-yFv">
                                                 <rect key="frame" x="8" y="722" width="398" height="350"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Problem/Information Details" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X91-s7-tTm">
+                                                    <textField opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Problem/Information Details" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X91-s7-tTm">
                                                         <rect key="frame" x="8" y="12" width="382" height="100"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="100" id="XP9-jS-ky3"/>
@@ -373,7 +389,7 @@ Police Station?</string>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nk-Ua-lqB">
                                                         <rect key="frame" x="206" y="191.5" width="184" height="48"/>
-                                                        <state key="normal" title="UPLOAD PHOTO" image="ic_mobile">
+                                                        <state key="normal" title="UPLOAD PHOTO" image="ic_camera">
                                                             <color key="titleColor" name="otp_button_color"/>
                                                         </state>
                                                         <connections>
@@ -408,9 +424,12 @@ Police Station?</string>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5TR-qo-3Gg">
                                                         <rect key="frame" x="211" y="272.5" width="179" height="48"/>
-                                                        <state key="normal" title="RECORD AUDIO" image="ic_mobile">
+                                                        <state key="normal" title="RECORD AUDIO" image="ic_audio">
                                                             <color key="titleColor" name="otp_button_color"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="recordAudioAction:" destination="yce-ig-8hq" eventType="touchUpInside" id="1Ti-dx-nV7"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -513,6 +532,8 @@ Police Station?</string>
                     <navigationItem key="navigationItem" id="xEj-Tu-DxZ"/>
                     <connections>
                         <outlet property="addressTextField" destination="C6S-4M-uTW" id="ZNB-Tq-pS4"/>
+                        <outlet property="buttonAudio" destination="5TR-qo-3Gg" id="hNg-BD-P6y"/>
+                        <outlet property="buttonPhoto" destination="7nk-Ua-lqB" id="ZZU-p8-V06"/>
                         <outlet property="districtTextField" destination="GzR-O2-b4C" id="qfX-el-f8C"/>
                         <outlet property="mobileNumberTextField" destination="80I-pd-92K" id="dfx-B9-T9P"/>
                         <outlet property="nameTextField" destination="pOm-aG-T87" id="ceE-tb-sTG"/>
@@ -551,7 +572,9 @@ Police Station?</string>
     </scenes>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
+        <image name="ic_audio" width="48" height="48"/>
         <image name="ic_calendar" width="48" height="48"/>
+        <image name="ic_camera" width="48" height="48"/>
         <image name="ic_mobile" width="48" height="48"/>
         <namedColor name="otp_button_color">
             <color red="0.45490196078431372" green="0.80784313725490198" blue="0.21176470588235294" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

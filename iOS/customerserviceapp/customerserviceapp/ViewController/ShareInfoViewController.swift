@@ -17,9 +17,9 @@ class ShareInfoViewController: UIViewController {
     
     @IBOutlet weak var addressTextField: UITextField!
     
-    @IBOutlet weak var natureTextField: UITextField!
+    @IBOutlet weak var natureTextField: ValidationTextField!
     
-    @IBOutlet weak var placeTextField: UITextField!
+    @IBOutlet weak var placeTextField: ValidationTextField!
     
     @IBOutlet weak var districtTextField: UITextField!
     
@@ -28,6 +28,15 @@ class ShareInfoViewController: UIViewController {
     @IBOutlet weak var suspectThingTextField: UITextField!
     
     @IBOutlet weak var problemDescriptionTextField: UITextField!
+    
+    @IBOutlet weak var buttonPhoto: UIButton!
+    
+    
+    @IBOutlet weak var buttonAudio: UIButton!
+    
+    
+    
+    
     let districtPickerView = UIPickerView()
     
     let incidentPickerView = UIPickerView()
@@ -121,6 +130,19 @@ class ShareInfoViewController: UIViewController {
         districtTextField.setupRightImage(imageName: "ic_arrow_down")
         stationTextField.setupRightImage(imageName: "ic_arrow_down")
         placeTextField.setupRightImage(imageName: "ic_place")
+        
+        placeTextField.validCondition = {$0.count > 2}
+        natureTextField.validCondition = {!$0.isEmpty}
+        
+        // Button tint color
+        buttonPhoto.tintColor = #colorLiteral(red: 0.4549019608, green: 0.8078431373, blue: 0.2117647059, alpha: 1)
+        buttonAudio.tintColor = #colorLiteral(red: 0.4549019608, green: 0.8078431373, blue: 0.2117647059, alpha: 1)
+        
+    }
+    
+    
+    @IBAction func knowYourPoliceStationClicked(_ sender: UIButton) {
+        print("knowYourPoliceStationClicked")
     }
     
     
@@ -136,6 +158,12 @@ class ShareInfoViewController: UIViewController {
             print("Camera not available")
         }
     }
+    
+    
+    @IBAction func recordAudioAction(_ sender: UIButton) {
+        print("Record Audio")
+    }
+    
     
     /*
      // MARK: - Navigation
@@ -180,7 +208,15 @@ extension ShareInfoViewController: UIPickerViewDelegate, UIPickerViewDataSource,
     }
     
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
-        return textField.tag != 1 && textField.tag != 2
+        if textField.tag == 0 {
+            return true
+        }
+        
+        if (textField.tag == 3) {
+            return range.location < 200
+        }
+        
+        return false
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
