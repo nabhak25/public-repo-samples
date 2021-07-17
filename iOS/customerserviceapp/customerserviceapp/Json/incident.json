@@ -1,0 +1,152 @@
+[
+  {
+    "sr_no": 26,
+    "INCIDENT_CD": 1,
+    "INCIDENT_TYPE": "Commission of a Crime",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 27,
+    "INCIDENT_CD": 2,
+    "INCIDENT_TYPE": "Reporting Communal Incident",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 28,
+    "INCIDENT_CD": 3,
+    "INCIDENT_TYPE": "Regarding Traffic Issue",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 29,
+    "INCIDENT_CD": 4,
+    "INCIDENT_TYPE": "Regarding an Accident",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 30,
+    "INCIDENT_CD": 6,
+    "INCIDENT_TYPE": "Regarding a Strike",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 31,
+    "INCIDENT_CD": 7,
+    "INCIDENT_TYPE": "About a Procession",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 32,
+    "INCIDENT_CD": 8,
+    "INCIDENT_TYPE": "About Traffic Jam",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 33,
+    "INCIDENT_CD": 9,
+    "INCIDENT_TYPE": "About Crowding",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 34,
+    "INCIDENT_CD": 11,
+    "INCIDENT_TYPE": "About a brawl",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 35,
+    "INCIDENT_CD": 13,
+    "INCIDENT_TYPE": "Illegal sale of Liquor",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 36,
+    "INCIDENT_CD": 14,
+    "INCIDENT_TYPE": "About Gambling",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 37,
+    "INCIDENT_CD": 15,
+    "INCIDENT_TYPE": "About nuisance of Loudspeaker",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 38,
+    "INCIDENT_CD": 19,
+    "INCIDENT_TYPE": "Regarding Suspicious person",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 39,
+    "INCIDENT_CD": 21,
+    "INCIDENT_TYPE": "About dispute in Family",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 40,
+    "INCIDENT_CD": 22,
+    "INCIDENT_TYPE": "Land / house / flat possession",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 41,
+    "INCIDENT_CD": 24,
+    "INCIDENT_TYPE": "Illegal tree felling",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 42,
+    "INCIDENT_CD": 25,
+    "INCIDENT_TYPE": "Cattle smuggling",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 43,
+    "INCIDENT_CD": 26,
+    "INCIDENT_TYPE": "Illegal mining",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 44,
+    "INCIDENT_CD": 27,
+    "INCIDENT_TYPE": "Owner tenant dispute",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 45,
+    "INCIDENT_CD": 28,
+    "INCIDENT_TYPE": "About dispute regarding Property",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 46,
+    "INCIDENT_CD": 29,
+    "INCIDENT_TYPE": "Plot related controversy",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 47,
+    "INCIDENT_CD": 30,
+    "INCIDENT_TYPE": "Drain-related dispute",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 48,
+    "INCIDENT_CD": 33,
+    "INCIDENT_TYPE": "Money transaction dispute",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 49,
+    "INCIDENT_CD": 35,
+    "INCIDENT_TYPE": "About incident of Fire",
+    "LANG_CD": 99
+  },
+  {
+    "sr_no": 50,
+    "INCIDENT_CD": 36,
+    "INCIDENT_TYPE": "Suggestion",
+    "LANG_CD": 99
+  }
+]

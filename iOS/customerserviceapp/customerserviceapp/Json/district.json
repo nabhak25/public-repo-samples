@@ -1,0 +1,876 @@
+[
+  {
+    "DISTRICT_ID": 2076,
+    "DISTRICT_CD": 31621,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 229,
+    "DISTRICT": "AGRA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2077,
+    "DISTRICT_CD": 31622,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 230,
+    "DISTRICT": "ALIGARH",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2133,
+    "DISTRICT_CD": 31690,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 240,
+    "DISTRICT": "AMBEDKAR NAGAR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2159,
+    "DISTRICT_CD": 31949,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 240,
+    "DISTRICT": "AMETHI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2148,
+    "DISTRICT_CD": 31894,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 234,
+    "DISTRICT": "AMROHA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2164,
+    "DISTRICT_CD": 31983,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 0,
+    "DISTRICT": "ANTI POWER THEFT",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2163,
+    "DISTRICT_CD": 31982,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 0,
+    "DISTRICT": "ANTI TERRORIST SQUAD(A.T.S.)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2157,
+    "DISTRICT_CD": 31906,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 238,
+    "DISTRICT": "AURAIYA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2092,
+    "DISTRICT_CD": 31641,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 240,
+    "DISTRICT": "AYODHYA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2079,
+    "DISTRICT_CD": 31625,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 244,
+    "DISTRICT": "AZAMGARH",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2087,
+    "DISTRICT_CD": 31633,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 233,
+    "DISTRICT": "BADAUN",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2154,
+    "DISTRICT_CD": 31901,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 242,
+    "DISTRICT": "BAGHPAT",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2080,
+    "DISTRICT_CD": 31626,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 235,
+    "DISTRICT": "BAHRAICH",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2081,
+    "DISTRICT_CD": 31627,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 244,
+    "DISTRICT": "BALLIA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2146,
+    "DISTRICT_CD": 31892,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 235,
+    "DISTRICT": "BALRAMPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2082,
+    "DISTRICT_CD": 31628,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 232,
+    "DISTRICT": "BANDA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2083,
+    "DISTRICT_CD": 31629,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 240,
+    "DISTRICT": "BARABANKI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2084,
+    "DISTRICT_CD": 31630,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 233,
+    "DISTRICT": "BAREILLY",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2085,
+    "DISTRICT_CD": 31631,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 236,
+    "DISTRICT": "BASTI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2131,
+    "DISTRICT_CD": 31688,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 246,
+    "DISTRICT": "BHADOHI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2086,
+    "DISTRICT_CD": 31632,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 234,
+    "DISTRICT": "BIJNOR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2088,
+    "DISTRICT_CD": 31634,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 242,
+    "DISTRICT": "BULANDSHAHAR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2166,
+    "DISTRICT_CD": 31985,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 0,
+    "DISTRICT": "C.C.H.Q",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2150,
+    "DISTRICT_CD": 31896,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 245,
+    "DISTRICT": "CHANDAULI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2152,
+    "DISTRICT_CD": 31898,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 232,
+    "DISTRICT": "CHITRAKOOT",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2139,
+    "DISTRICT_CD": 31706,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 524,
+    "DISTRICT": "Central (Commissionerate Gautam Buddha Nagar)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2138,
+    "DISTRICT_CD": 31705,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 524,
+    "DISTRICT": "Commissionerate Gautam Buddha Nagar",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2172,
+    "DISTRICT_CD": 31991,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 528,
+    "DISTRICT": "Crime (Commissionerate Kanpur Nagar)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2089,
+    "DISTRICT_CD": 31638,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 237,
+    "DISTRICT": "DEORIA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2090,
+    "DISTRICT_CD": 31639,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 230,
+    "DISTRICT": "ETAH",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2091,
+    "DISTRICT_CD": 31640,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 238,
+    "DISTRICT": "ETAWAH",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2169,
+    "DISTRICT_CD": 31988,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 528,
+    "DISTRICT": "East (Commissionerate Kanpur Nagar)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2093,
+    "DISTRICT_CD": 31642,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 238,
+    "DISTRICT": "FATEHGARH",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2094,
+    "DISTRICT_CD": 31643,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 231,
+    "DISTRICT": "FATEHPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2122,
+    "DISTRICT_CD": 31679,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 229,
+    "DISTRICT": "FIROZABAD",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2151,
+    "DISTRICT_CD": 31897,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 242,
+    "DISTRICT": "GAUTAM BUDH NAGAR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2124,
+    "DISTRICT_CD": 31681,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 242,
+    "DISTRICT": "GHAZIABAD",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2095,
+    "DISTRICT_CD": 31644,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 245,
+    "DISTRICT": "GHAZIPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2096,
+    "DISTRICT_CD": 31646,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 235,
+    "DISTRICT": "GONDA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2097,
+    "DISTRICT_CD": 31647,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 237,
+    "DISTRICT": "GORAKHPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2140,
+    "DISTRICT_CD": 31707,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 524,
+    "DISTRICT": "Greater Noida (Commissionerate Gautam Buddha Nagar)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2098,
+    "DISTRICT_CD": 31648,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 232,
+    "DISTRICT": "HAMIRPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2144,
+    "DISTRICT_CD": 31831,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 242,
+    "DISTRICT": "HAPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2099,
+    "DISTRICT_CD": 31649,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 241,
+    "DISTRICT": "HARDOI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2153,
+    "DISTRICT_CD": 31899,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 230,
+    "DISTRICT": "HATHRAS",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2100,
+    "DISTRICT_CD": 31650,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 239,
+    "DISTRICT": "JALAUN",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2101,
+    "DISTRICT_CD": 31651,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 245,
+    "DISTRICT": "JAUNPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2102,
+    "DISTRICT_CD": 31652,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 239,
+    "DISTRICT": "JHANSI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2156,
+    "DISTRICT_CD": 31905,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 238,
+    "DISTRICT": "KANNAUJ",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2125,
+    "DISTRICT_CD": 31682,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 238,
+    "DISTRICT": "KANPUR DEHAT",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2158,
+    "DISTRICT_CD": 31909,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 230,
+    "DISTRICT": "KASGANJ",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2149,
+    "DISTRICT_CD": 31895,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 231,
+    "DISTRICT": "KAUSHAMBI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2104,
+    "DISTRICT_CD": 31654,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 241,
+    "DISTRICT": "KHERI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2162,
+    "DISTRICT_CD": 31952,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 0,
+    "DISTRICT": "KUMBH",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2130,
+    "DISTRICT_CD": 31687,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 237,
+    "DISTRICT": "KUSHI NAGAR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2103,
+    "DISTRICT_CD": 31653,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 238,
+    "DISTRICT": "Kanpur (Outer)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2168,
+    "DISTRICT_CD": 31987,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 527,
+    "DISTRICT": "Kashi (Commissionerate Varanasi)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2123,
+    "DISTRICT_CD": 31680,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 239,
+    "DISTRICT": "LALITPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2105,
+    "DISTRICT_CD": 31655,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 241,
+    "DISTRICT": "LUCKNOW RURAL",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2135,
+    "DISTRICT_CD": 31702,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 526,
+    "DISTRICT": "Lucknow Central (Commissionerate Lucknow)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2137,
+    "DISTRICT_CD": 31704,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 526,
+    "DISTRICT": "Lucknow East (Commissionerate Lucknow)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2136,
+    "DISTRICT_CD": 31703,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 526,
+    "DISTRICT": "Lucknow North (Commissionerate Lucknow)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2142,
+    "DISTRICT_CD": 31709,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 526,
+    "DISTRICT": "Lucknow South (Commissionerate Lucknow)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2134,
+    "DISTRICT_CD": 31701,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 526,
+    "DISTRICT": "Lucknow West (Commissionerate Lucknow)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2132,
+    "DISTRICT_CD": 31689,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 232,
+    "DISTRICT": "MAHOBA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2129,
+    "DISTRICT_CD": 31686,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 237,
+    "DISTRICT": "MAHRAJGANJ",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2106,
+    "DISTRICT_CD": 31656,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 229,
+    "DISTRICT": "MAINPURI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2107,
+    "DISTRICT_CD": 31657,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 229,
+    "DISTRICT": "MATHURA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2126,
+    "DISTRICT_CD": 31683,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 244,
+    "DISTRICT": "MAU",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2108,
+    "DISTRICT_CD": 31658,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 242,
+    "DISTRICT": "MEERUT",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2109,
+    "DISTRICT_CD": 31659,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 246,
+    "DISTRICT": "MIRZAPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2110,
+    "DISTRICT_CD": 31660,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 234,
+    "DISTRICT": "MORADABAD",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2111,
+    "DISTRICT_CD": 31661,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 243,
+    "DISTRICT": "MUZAFFAR NAGAR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2113,
+    "DISTRICT_CD": 31665,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 233,
+    "DISTRICT": "PILIBHIT",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2112,
+    "DISTRICT_CD": 31663,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 231,
+    "DISTRICT": "PRATAPGARH",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2078,
+    "DISTRICT_CD": 31623,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 231,
+    "DISTRICT": "PRAYAGRAJ",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2114,
+    "DISTRICT_CD": 31667,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 241,
+    "DISTRICT": "RAE BARELI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2115,
+    "DISTRICT_CD": 31668,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 234,
+    "DISTRICT": "RAMPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2116,
+    "DISTRICT_CD": 31669,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 243,
+    "DISTRICT": "SAHARANPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2143,
+    "DISTRICT_CD": 31825,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 234,
+    "DISTRICT": "SAMBHAL",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2155,
+    "DISTRICT_CD": 31904,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 236,
+    "DISTRICT": "SANT KABEER NAGAR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2117,
+    "DISTRICT_CD": 31670,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 233,
+    "DISTRICT": "SHAHJAHANPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2145,
+    "DISTRICT_CD": 31832,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 243,
+    "DISTRICT": "SHAMLI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2147,
+    "DISTRICT_CD": 31893,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 235,
+    "DISTRICT": "SHRAVASTI",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2127,
+    "DISTRICT_CD": 31684,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 236,
+    "DISTRICT": "SIDDHARTH NAGAR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2118,
+    "DISTRICT_CD": 31671,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 241,
+    "DISTRICT": "SITAPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2128,
+    "DISTRICT_CD": 31685,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 246,
+    "DISTRICT": "SONBHADRA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2160,
+    "DISTRICT_CD": 31950,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 0,
+    "DISTRICT": "STF LUCKNOW",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2161,
+    "DISTRICT_CD": 31951,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 0,
+    "DISTRICT": "STF NOIDA",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2119,
+    "DISTRICT_CD": 31672,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 240,
+    "DISTRICT": "SULTANPUR",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2171,
+    "DISTRICT_CD": 31990,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 528,
+    "DISTRICT": "South (Commissionerate Kanpur Nagar)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2165,
+    "DISTRICT_CD": 31984,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 0,
+    "DISTRICT": "U.P. VIGILANCE ESTT.",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2120,
+    "DISTRICT_CD": 31674,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 241,
+    "DISTRICT": "UNNAO",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2121,
+    "DISTRICT_CD": 31676,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 245,
+    "DISTRICT": "Varanasi (Rural)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2167,
+    "DISTRICT_CD": 31986,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 527,
+    "DISTRICT": "Varuna (Commissionerate Varanasi)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2170,
+    "DISTRICT_CD": 31989,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 528,
+    "DISTRICT": "West (Commissionerate Kanpur Nagar)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  },
+  {
+    "DISTRICT_ID": 2141,
+    "DISTRICT_CD": 31708,
+    "LANG_CD": 99,
+    "STATE_CD": 31,
+    "RANGE_CD": 524,
+    "DISTRICT": "Women Security (Commissionerate Gautam Buddha Nagar)",
+    "RECORD_CREATED_ON": "2021-05-28"
+  }
+  
+]

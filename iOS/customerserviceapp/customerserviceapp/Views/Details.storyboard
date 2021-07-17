@@ -191,10 +191,10 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3gA-Ze-33A">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1143"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1154"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12U-pb-2lA">
-                                                <rect key="frame" x="16" y="1085" width="382" height="50"/>
+                                                <rect key="frame" x="16" y="1096" width="382" height="50"/>
                                                 <color key="backgroundColor" name="otp_button_color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="wd3-U0-CWp"/>
@@ -202,6 +202,9 @@
                                                 <state key="normal" title="SUBMIT">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="onSubmitClicked:" destination="yce-ig-8hq" eventType="touchUpInside" id="wTb-9E-ipI"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p45-Gy-iZ3">
                                                 <rect key="frame" x="158" y="48" width="98" height="20.5"/>
@@ -232,17 +235,17 @@
                                                             <constraint firstAttribute="height" constant="45" id="8Rz-de-qcX"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile Number (Optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="80I-pd-92K">
                                                         <rect key="frame" x="0.0" y="64" width="398" height="45"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Address (Optional)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C6S-4M-uTW">
                                                         <rect key="frame" x="0.0" y="128" width="398" height="45"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -273,7 +276,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="IUb-af-NdS">
                                                 <rect key="frame" x="8" y="320" width="398" height="252"/>
                                                 <subviews>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nature of Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DDF-5t-OJr">
+                                                    <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nature of Complaint" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DDF-5t-OJr">
                                                         <rect key="frame" x="0.0" y="0.0" width="398" height="45"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="45" id="2wF-fm-DdU"/>
@@ -284,9 +287,9 @@
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place of Incident" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Lb-No-RFx">
                                                         <rect key="frame" x="0.0" y="69" width="398" height="45"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                     </textField>
-                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="District" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GzR-O2-b4C">
+                                                    <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="District" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GzR-O2-b4C">
                                                         <rect key="frame" x="0.0" y="138" width="398" height="45"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                         <textInputTraits key="textInputTraits"/>
@@ -294,7 +297,7 @@
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Police Station" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KoZ-hb-02G">
                                                         <rect key="frame" x="0.0" y="207" width="398" height="45"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
@@ -318,12 +321,15 @@ Police Station?</string>
                                                 </state>
                                             </button>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Suspect Name / Suspect Thing" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kv5-lh-1wt">
-                                                <rect key="frame" x="8" y="653" width="398" height="34"/>
+                                                <rect key="frame" x="8" y="653" width="398" height="45"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="20B-7v-qPn"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3FM-qj-yFv">
-                                                <rect key="frame" x="8" y="711" width="398" height="350"/>
+                                                <rect key="frame" x="8" y="722" width="398" height="350"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Problem/Information Details" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X91-s7-tTm">
                                                         <rect key="frame" x="8" y="12" width="382" height="100"/>
@@ -331,7 +337,7 @@ Police Station?</string>
                                                             <constraint firstAttribute="height" constant="100" id="XP9-jS-ky3"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits"/>
+                                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max Limit: 200 characters" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etb-I5-gqC">
                                                         <rect key="frame" x="8" y="120" width="382" height="20.5"/>
@@ -370,6 +376,9 @@ Police Station?</string>
                                                         <state key="normal" title="UPLOAD PHOTO" image="ic_mobile">
                                                             <color key="titleColor" name="otp_button_color"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="uploadPhotoAction:" destination="yce-ig-8hq" eventType="touchUpInside" id="PhL-1E-ZP2"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1o-7K-f3J">
                                                         <rect key="frame" x="187.5" y="246" width="23.5" height="20.5"/>
@@ -509,7 +518,9 @@ Police Station?</string>
                         <outlet property="nameTextField" destination="pOm-aG-T87" id="ceE-tb-sTG"/>
                         <outlet property="natureTextField" destination="DDF-5t-OJr" id="nx4-AJ-GnQ"/>
                         <outlet property="placeTextField" destination="1Lb-No-RFx" id="eJp-CX-w9M"/>
+                        <outlet property="problemDescriptionTextField" destination="X91-s7-tTm" id="PcV-a3-Zt3"/>
                         <outlet property="stationTextField" destination="KoZ-hb-02G" id="Cyi-5b-1yk"/>
+                        <outlet property="suspectThingTextField" destination="Kv5-lh-1wt" id="Cq1-8p-l00"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kFg-bu-NoZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
